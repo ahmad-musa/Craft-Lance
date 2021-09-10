@@ -2,37 +2,53 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 
-    /* colors */
+/* colors */
 
-    $color1 : #4CA368;
-    $color1_hover :  #37804E;
-    $color2 : #5DB442;
+$color1 : #4CA368;
+$color1_hover : #37804E;
+$color2 : #5DB442;
 
-    $black: #282828;
-    $black-text: #333333;
-    $ash: #efefef;
-    $white: #fff;
-    $offwhite: #ececec;
-    $logo: #636666;
-    $footer_lite: #777777;
+$black: #282828;
+$black-text: #333333;
+$ash: #efefef;
+$white: #fff;
+$offwhite: #ececec;
+$logo: #636666;
+$footer_lite: #777777;
 
-    /* fonts */
+/* fonts */
 
-    $roboto : 'Roboto', sans-serif ;
-    $basicsans7 : 'Basic Sans Serif 7', sans-serif ;
-    $opensans : 'Open Sans', sans-serif ;
+$roboto : 'Roboto',
+sans-serif;
+$basicsans7 : 'Basic Sans Serif 7',
+sans-serif;
+$opensans : 'Open Sans',
+sans-serif;
 
 
-    @font-face {
-        font-family: 'Basic Sans Serif 7';
-        src: url(../lib/fonts/basic_sans_serif_7.ttf);
-    };
+@font-face {
+    font-family: 'Basic Sans Serif 7';
+    src: url(../lib/fonts/basic_sans_serif_7.ttf);
+}
+
 
 /* Header Section Starts */
 .header {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow-x: hidden;
+
+    .container {
+        margin: 0 auto;
+        // padding: 0;
+        // width: auto;
+    }
 
     .container_top {
         height: 50px;
+        margin: 0;
+        padding: 0;
         background: $black;
         display: flex;
         justify-content: space-between;
@@ -73,32 +89,64 @@
                 }
             }
         }
+
+
+        .contact_top {
+            // display: flex;
+            // justify-content: flex-end;
+            // align-items: center;
+            // margin: auto 0;
+
+            .links {
+                padding: 15px;
+                margin: 2px 6px;
+                // border: 1px solid $color2;
+                color: $white;
+
+                &:hover {
+
+                    i,
+                    .text {
+                        color: $color2;
+                    }
+                }
+
+                i {
+                    color: $white;
+                }
+
+                .text {
+                    margin: auto 10px;
+                }
+            }
+        }
     }
 
 
 
-    .container_bottom{
+    .container_bottom {
+        
 
         .navbar_spacing {
             /* padding: 0 250px; */
             background-color: $white;
         }
-        
-        #Nav {
 
-            
+        #Nav {
+            padding: 0;
+
             .logo {
                 font-family: $basicsans7;
                 color: $logo;
                 font-size: 30px;
                 font-weight: bold;
                 text-transform: uppercase;
-            
+
                 &:hover {
                     color: $color2;
                 }
             }
-                
+
             .icon {
                 color: $color2;
                 margin-top: 5px;
@@ -107,11 +155,11 @@
                     color: $white;
                 }
             }
-        
-            #navbarText{
+
+            #navbarText {
 
                 .nav-link {
-                    padding: 30px 0 30px 45px;
+                    padding: 20px 0 20px 40px;
                     color: $white;
                     font-size: 24px;
                     font-family: $roboto;
@@ -122,20 +170,14 @@
                         color: $color2;
                     }
                 }
-            } 
-        } 
-         
-        .fixed-top {
-            /* background: transparent; */
-            border: none !important;
+            }
         }
-
     }
 
 }
 
 /* Side Navbar Starts */
-        
+
 body.side-menu-visible #side-menu {
     transform: translateX(-230px);
     padding: 20px 15px;
@@ -159,7 +201,7 @@ body.side-menu-visible #side-menu {
             }
         }
     }
-    
+
     .nav-link {
         color: $color1;
         font-size: 24px;
@@ -176,7 +218,7 @@ body.side-menu-visible #side-menu {
             margin-left: 6px;
         }
     }
-       
+
 }
 
 // #side-menu {

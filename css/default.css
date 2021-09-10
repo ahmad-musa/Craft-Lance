@@ -147,7 +147,7 @@ span,
 i { 
     color: rgb(90, 88, 88);
     text-decoration: none;
-    display: inline-block;
+    display: inline-flex;
 }
 
 a:hover {
@@ -163,6 +163,11 @@ ul li {
     width: 992px;
 } */
 
+
+.container{
+    padding: 0;
+    margin: 0;
+}
 
 .container-fluid{
     padding: 0;
