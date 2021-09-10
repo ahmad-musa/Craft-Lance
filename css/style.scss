@@ -32,7 +32,7 @@
 .header {
 
     .container_top {
-        height: 80px;
+        height: 50px;
         background: $black;
         display: flex;
         justify-content: space-between;
@@ -44,20 +44,19 @@
             align-items: center;
 
             .links {
-                background: $color2;
-                color: $black-text;
-                width: 40px;
-                height: 40px;
+                // background: $color2;
+                width: 35px;
+                height: 35px;
                 padding: 15px;
-                margin: 2px 5px;
+                margin: 2px 2px;
                 border-radius: 2px;
                 text-align: center;
-                border: 1px solid $color2;
+                // border: 1px solid $color2;
                 position: relative;
 
                 &:hover {
                     background: $white;
-                    border: 1px solid $color2;
+                    // border: 1px solid $color2;
                     color: $color2;
 
                     i {
@@ -66,7 +65,7 @@
                 }
 
                 i {
-                    color: $color1_hover;
+                    color: $white;
                     position: absolute;
                     top: 50%;
                     left: 50%;

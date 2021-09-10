@@ -9,7 +9,7 @@
 
 /* Header Section Starts */
 .header .container_top {
-  height: 80px;
+  height: 50px;
   background: #282828;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -35,21 +35,17 @@
 }
 
 .header .container_top .social .links {
-  background: #5DB442;
-  color: #333333;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   padding: 15px;
-  margin: 2px 5px;
+  margin: 2px 2px;
   border-radius: 2px;
   text-align: center;
-  border: 1px solid #5DB442;
   position: relative;
 }
 
 .header .container_top .social .links:hover {
   background: #fff;
-  border: 1px solid #5DB442;
   color: #5DB442;
 }
 
@@ -58,7 +54,7 @@
 }
 
 .header .container_top .social .links i {
-  color: #37804E;
+  color: #fff;
   position: absolute;
   top: 50%;
   left: 50%;
