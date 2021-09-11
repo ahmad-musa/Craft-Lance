@@ -1,0 +1,31 @@
+@import 'config';
+@import 'header';
+
+
+// Main Section Starts
+
+.main{
+    background: $color1;
+    height: 700px;
+    text-align: center;
+
+    .hero{
+        padding: 70px $p_x;
+
+        .container{
+            padding: 0 $p_x2;
+
+            .head{
+                font-size: $fs_head;
+                font-weight: 400;
+            }
+            .text{
+                margin: 15px 0;
+                line-height: 1.5;
+            }
+        }
+    }
+}
+
+
+// Main Section Ends

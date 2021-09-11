@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
 /* colors */
 /* fonts */
 @font-face {
@@ -14,13 +13,13 @@
 
 .header .container {
   margin: 0;
-  padding: 0 250px;
+  padding: 0 200px;
 }
 
 .header .container_top {
   height: 50px;
   margin: 0;
-  padding: 0 250px;
+  padding: 0 200px;
   background: #282828;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -125,7 +124,7 @@
   margin-left: 35px;
   padding: 10px 0 10px 20px;
   color: #fff;
-  font-size: 24px;
+  font-size: 16px;
   font-family: "Roboto", sans-serif;
   color: #282828;
   text-align: left;
@@ -192,4 +191,26 @@ body.side-menu-visible #side-menu .nav-link:hover {
 
 /* Side Navbar Ends */
 /* Header Section Ends */
-/*# sourceMappingURL=style.css.map */
+.main {
+  background: #4CA368;
+  height: 700px;
+  text-align: center;
+}
+
+.main .hero {
+  padding: 70px 200px;
+}
+
+.main .hero .container {
+  padding: 0 100px;
+}
+
+.main .hero .container .head {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.main .hero .container .text {
+  margin: 15px 0;
+  line-height: 1.5;
+}
