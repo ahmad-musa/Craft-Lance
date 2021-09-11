@@ -6,7 +6,7 @@
 
 .main{
     background: $color1;
-    height: 700px;
+    height: 830px;
     text-align: center;
 
     .hero{
@@ -20,9 +20,46 @@
                 font-weight: 400;
             }
             .text{
-                margin: 15px 0;
+                margin: 15px 30px;
                 line-height: 1.5;
             }
+
+            .image{
+                margin: 15px 0;
+            }
+
+            .mailing{
+                margin-top: 60px;
+
+                .mail{
+                    padding: 10px 20px;
+                    width: 35%;
+                    border: 2px solid $white;
+                    border-radius: 20px 0 0 20px;
+                }
+
+                .btn-click{
+                    padding: 12px 20px;
+                    border-radius: 0 20px 20px 0 ;
+                    background-color: $color1_hover;
+                    border: 2px solid $color1_hover;
+                    color: $white;
+
+                    &:hover{
+                        border: 2px solid $white;
+                        background-color: $color2;
+                        color:  $black-text;
+                    }
+
+                    
+                }
+            }
+
+            .text2{      
+                font-size: $fs_text1;
+                margin: 15px;
+            }
+
         }
     }
 }

@@ -193,7 +193,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
 /* Header Section Ends */
 .main {
   background: #4CA368;
-  height: 700px;
+  height: 830px;
   text-align: center;
 }
 
@@ -211,6 +211,40 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .main .hero .container .text {
-  margin: 15px 0;
+  margin: 15px 30px;
   line-height: 1.5;
+}
+
+.main .hero .container .image {
+  margin: 15px 0;
+}
+
+.main .hero .container .mailing {
+  margin-top: 60px;
+}
+
+.main .hero .container .mailing .mail {
+  padding: 10px 20px;
+  width: 35%;
+  border: 2px solid #fff;
+  border-radius: 20px 0 0 20px;
+}
+
+.main .hero .container .mailing .btn-click {
+  padding: 12px 20px;
+  border-radius: 0 20px 20px 0;
+  background-color: #37804E;
+  border: 2px solid #37804E;
+  color: #fff;
+}
+
+.main .hero .container .mailing .btn-click:hover {
+  border: 2px solid #fff;
+  background-color: #5DB442;
+  color: #333333;
+}
+
+.main .hero .container .text2 {
+  font-size: 14px;
+  margin: 15px;
 }
