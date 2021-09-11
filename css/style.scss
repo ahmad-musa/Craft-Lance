@@ -25,6 +25,16 @@ sans-serif;
 $opensans : 'Open Sans',
 sans-serif;
 
+// gap measurement
+$p_x: 250px;
+$p_icon: 15px;
+$m_icon: 2px;
+$m_text: 12px;
+$py_menu: 10px;
+$px_menu: 20px;
+$my_menu: 10px;
+$mx_menu: 35px;
+
 
 @font-face {
     font-family: 'Basic Sans Serif 7';
@@ -34,13 +44,12 @@ sans-serif;
 
 /* Header Section Starts */
 .header {
-    margin: 0;
-    padding: 0;
-    width: auto;
+    // width: auto;
     overflow-x: hidden;
 
     .container {
-        margin: 0 auto;
+        margin: 0;
+        padding: 0 $p_x;
         // padding: 0;
         // width: auto;
     }
@@ -48,7 +57,7 @@ sans-serif;
     .container_top {
         height: 50px;
         margin: 0;
-        padding: 0;
+        padding: 0 $p_x;
         background: $black;
         display: flex;
         justify-content: space-between;
@@ -63,8 +72,8 @@ sans-serif;
                 // background: $color2;
                 width: 35px;
                 height: 35px;
-                padding: 15px;
-                margin: 2px 2px;
+                padding: $p_icon;
+                margin: $m_icon;
                 border-radius: 2px;
                 text-align: center;
                 // border: 1px solid $color2;
@@ -98,15 +107,14 @@ sans-serif;
             // margin: auto 0;
 
             .links {
-                padding: 15px;
-                margin: 2px 6px;
+                padding: $p_icon 0 $p_icon $p_icon;
+                margin: $m_icon 0 $m_icon $m_icon;
                 // border: 1px solid $color2;
                 color: $white;
 
                 &:hover {
 
-                    i,
-                    .text {
+                    i,.text {
                         color: $color2;
                     }
                 }
@@ -116,7 +124,7 @@ sans-serif;
                 }
 
                 .text {
-                    margin: auto 10px;
+                    margin: 0 0 0 $m_text;
                 }
             }
         }
@@ -133,7 +141,7 @@ sans-serif;
         }
 
         #Nav {
-            padding: 0;
+            padding: $py_menu 0;
 
             .logo {
                 font-family: $basicsans7;
@@ -159,7 +167,8 @@ sans-serif;
             #navbarText {
 
                 .nav-link {
-                    padding: 20px 0 20px 40px;
+                    margin-left: $mx_menu;
+                    padding: $py_menu 0 $py_menu $px_menu;
                     color: $white;
                     font-size: 24px;
                     font-family: $roboto;
@@ -168,6 +177,17 @@ sans-serif;
 
                     &:hover {
                         color: $color2;
+                    }
+                }
+
+                .btn-click{
+                    padding: $py_menu $px_menu;
+                    border: 2px solid $color2;
+                    border-radius: 25px;
+
+                    &:hover{
+                        background-color: $color2;
+                        color: $white;
                     }
                 }
             }
