@@ -206,4 +206,155 @@
 }
 
 
-// Signup Section Ends
+// Service Section Ends
+
+
+// Service Section Starts
+
+.service{
+    // background: $ash;
+    // height: 620px;
+    text-align: center;
+    
+    .hero{
+        padding: 70px $p_x;
+
+        .container{
+            // padding: 0 $p_x2;
+            width: 90%;
+            margin: 0 auto;
+            
+            .head{
+                font-size: $fs_head;
+                font-weight: 400;
+            }
+
+            .box{
+                margin: 15px 30px;
+                margin: 45px auto;
+                padding: 32px;
+
+                .top{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+                    // box-shadow: 0 0 5px rgba(0,0,0,0.2);
+                    // text-align: center;
+
+                    .line{
+                        font-size: $fs_text1;
+                        font-weight: 600;
+                        
+                    }
+
+                    .bgcolor{
+                        background: $color2;
+                        padding: 10px 20px;
+                        border: 2px solid $color2;
+                        border-radius: 20px 0 0 20px;
+                    }
+
+                    .line2{
+                        padding: 10px 20px;
+                        border-radius: 0 20px 20px 0;
+                        border: 2px solid $ash;
+                    }
+
+                    .text{
+                        padding: 10px;
+                        font-size: $fs_text1;
+                        background: $color1;
+                        border-radius: 50%;
+                        position: absolute;
+                    }
+                }
+
+                .bottom{
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    padding: 32px 0;
+
+                    .big_icon{
+                        width: 50%;
+                        text-align: right;
+                        .icon{
+                            color: $color2;
+                            font-size: $fs_headlg;
+                            margin-right: 20%;
+                            &:hover{
+                                color: $ash;
+                            }
+
+                        }
+                    }
+
+                    .details{
+                        width: 50%;
+                        text-align: start;
+                        
+                        .head{
+                            font-size: $fs_subhead;
+                            color: $color2;
+                            margin-bottom: 25px;
+                            text-transform: uppercase;
+                        }
+
+                        .text{
+
+                            .line{
+                                margin: 15px;
+                                color: $black_text;
+                            }
+                        }
+
+                    }
+                }
+            }
+            
+            .three_icon{
+                // margin-top: 60px;
+                display: flex;
+                justify-content: center;
+                
+                .icon_caption{
+                    padding: 10px;
+                    margin: 15px;
+                    // width: 20%;
+
+                    .icon{
+                        border: 2px solid $color2;
+                        border-radius: 50%;
+                        color: $color2;
+                        padding: $fs_text3;
+
+                        .icons{
+                            color: $color2; 
+                        }
+
+                        &:hover{
+                            background: $color2 ;
+                            color: $white; 
+
+                            .icons{
+                                color: $white; 
+                            }
+                        }
+
+                    }
+
+                    .text{
+                        font-size: $fs_text2;
+                        margin: 15px;
+                    }
+                }
+                    
+            }
+            
+        }
+    }
+}
+
+
+// Service Section Ends
