@@ -489,18 +489,19 @@ body.side-menu-visible #side-menu .nav-link:hover {
   color: #333333;
 }
 
-.service .hero .container .row_contain .cart {
+.service .hero .container .row_contain .cards {
+  margin: 0 7%;
   text-align: center;
 }
 
-.service .hero .container .row_contain .cart .top {
+.service .hero .container .row_contain .cards .top {
   border: 2px solid #ececec;
   border-bottom: 1px solid #ececec;
   position: relative;
   height: 120px;
 }
 
-.service .hero .container .row_contain .cart .top .caption {
+.service .hero .container .row_contain .cards .top .caption {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -511,12 +512,13 @@ body.side-menu-visible #side-menu .nav-link:hover {
   margin-top: -2px;
   padding: 20px 0;
   border-top: 5px solid #ececec;
+  border-radius: 5px;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 600;
 }
 
-.service .hero .container .row_contain .cart .top .circle {
+.service .hero .container .row_contain .cards .top .circle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -544,23 +546,23 @@ body.side-menu-visible #side-menu .nav-link:hover {
           transform: translate(50%, -20%);
 }
 
-.service .hero .container .row_contain .cart .top .circle .bold {
+.service .hero .container .row_contain .cards .top .circle .bold {
   font-size: 26px;
 }
 
-.service .hero .container .row_contain .cart .top .circle p {
+.service .hero .container .row_contain .cards .top .circle p {
   font-size: 12px;
   font-style: italic;
 }
 
-.service .hero .container .row_contain .cart .bottom {
+.service .hero .container .row_contain .cards .bottom {
   border: 2px solid #ececec;
   border-top: 1px solid #ececec;
-  height: 250px;
+  height: 280px;
   padding: 60px 0;
 }
 
-.service .hero .container .row_contain .cart .bottom .line1 {
+.service .hero .container .row_contain .cards .bottom .line1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -572,14 +574,32 @@ body.side-menu-visible #side-menu .nav-link:hover {
   font-weight: 600;
 }
 
-.service .hero .container .row_contain .cart .bottom .line1 .icon {
+.service .hero .container .row_contain .cards .bottom .line1 .icon {
   margin: 0 10px;
 }
 
-.service .hero .container .row_contain .cart .bottom .line1 .on {
+.service .hero .container .row_contain .cards .bottom .line1 .on {
   color: #5DB442;
 }
 
-.service .hero .container .row_contain .cart .bottom .line1 .off {
+.service .hero .container .row_contain .cards .bottom .line1 .off {
   color: red;
+}
+
+.service .hero .container .row_contain .cards .bottom .btn_purchase {
+  margin: 20px;
+  padding: 10px 25px;
+  font-size: 12px;
+  text-transform: uppercase;
+  border: 2px solid #ececec;
+  border-radius: 20px;
+}
+
+.service .hero .container .row_contain .cards:hover .caption {
+  border-top: 5px solid #5DB442;
+}
+
+.service .hero .container .row_contain .cards:hover .btn_purchase {
+  color: #fff;
+  background: #5DB442;
 }
