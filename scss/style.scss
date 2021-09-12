@@ -6,21 +6,26 @@
 
 .main{
     background: $color1;
-    height: 830px;
+    // height: 830px;
     text-align: center;
 
     .hero{
         padding: 70px $p_x;
 
         .container{
-            padding: 0 $p_x2;
+            // padding: 0 $p_x2;
+            width: 90%;
+            margin: 0 auto;
 
             .head{
                 font-size: $fs_head;
                 font-weight: 400;
             }
             .text{
-                margin: 15px 30px;
+                // margin: 15px 30px;
+                font-size: $fs_text3;
+                margin: 15px auto;
+                width: 70%;
                 line-height: 1.5;
             }
 
@@ -38,7 +43,7 @@
                     border-radius: 20px 0 0 20px;
                 }
 
-                .btn-click{
+                .btn_click{
                     padding: 12px 20px;
                     border-radius: 0 20px 20px 0 ;
                     background-color: $color1_hover;
@@ -57,6 +62,7 @@
 
             .text2{      
                 font-size: $fs_text1;
+                color: $white;
                 margin: 15px;
             }
 
@@ -64,5 +70,140 @@
     }
 }
 
-
 // Main Section Ends
+
+
+
+
+
+// Signup Section Starts
+
+.signup{
+    background: $ash;
+    // height: 620px;
+    text-align: center;
+    
+    .hero{
+        padding: 70px $p_x;
+
+        .container{
+            // padding: 0 $p_x2;
+            width: 90%;
+            margin: 0 auto;
+            
+            .head{
+                font-size: $fs_head;
+                font-weight: 400;
+            }
+
+            .box{
+                // margin: 15px 30px;
+                margin: 45px auto;
+                padding: 32px;
+                width: 55%;
+                background: $white;
+                box-shadow: 0 0 5px rgba(0,0,0,0.2);
+
+                .top{
+
+                    .icon, i{
+                        display: block;
+                        padding: -2px 5px;
+                        color: $ash;
+                        font-size: 24px;
+                        cursor: pointer;
+
+                        &:hover{
+                            color: $color2;
+                        }
+                    }
+                }
+
+                .bottom{
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    padding: 32px 0;
+
+                    .big_icon{
+                        width: 50%;
+                        text-align: right;
+                        .icon{
+                            color: $color2;
+                            font-size: $fs_headlg;
+                            margin-right: 20%;
+                            &:hover{
+                                color: $ash;
+                            }
+
+                        }
+                    }
+
+                    .details{
+                        width: 50%;
+                        text-align: start;
+                        
+                        .head{
+                            font-size: $fs_subhead;
+                            color: $color2;
+                            margin-bottom: 25px;
+                            text-transform: uppercase;
+                        }
+
+                        .text{
+
+                            .line{
+                                margin: 15px;
+                                color: $black_text;
+                            }
+                        }
+
+                    }
+                }
+            }
+            
+            .three_icon{
+                // margin-top: 60px;
+                display: flex;
+                justify-content: center;
+                
+                .icon_caption{
+                    padding: 10px;
+                    margin: 15px;
+                    // width: 20%;
+
+                    .icon{
+                        border: 2px solid $color2;
+                        border-radius: 50%;
+                        color: $color2;
+                        padding: $fs_text3;
+
+                        .icons{
+                            color: $color2; 
+                        }
+
+                        &:hover{
+                            background: $color2 ;
+                            color: $white; 
+
+                            .icons{
+                                color: $white; 
+                            }
+                        }
+
+                    }
+
+                    .text{
+                        font-size: $fs_text2;
+                        margin: 15px;
+                    }
+                }
+                    
+            }
+            
+        }
+    }
+}
+
+
+// Signup Section Ends

@@ -84,10 +84,12 @@
 
 .header .container_top .contact_top .links i {
   color: #fff;
+  font-size: 14px;
 }
 
 .header .container_top .contact_top .links .text {
   margin: 0 0 0 12px;
+  font-size: 14px;
 }
 
 .header .container_bottom .navbar_spacing {
@@ -193,7 +195,6 @@ body.side-menu-visible #side-menu .nav-link:hover {
 /* Header Section Ends */
 .main {
   background: #4CA368;
-  height: 830px;
   text-align: center;
 }
 
@@ -202,7 +203,8 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .main .hero .container {
-  padding: 0 100px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .main .hero .container .head {
@@ -211,7 +213,9 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .main .hero .container .text {
-  margin: 15px 30px;
+  font-size: 16px;
+  margin: 15px auto;
+  width: 70%;
   line-height: 1.5;
 }
 
@@ -230,7 +234,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
   border-radius: 20px 0 0 20px;
 }
 
-.main .hero .container .mailing .btn-click {
+.main .hero .container .mailing .btn_click {
   padding: 12px 20px;
   border-radius: 0 20px 20px 0;
   background-color: #37804E;
@@ -238,13 +242,136 @@ body.side-menu-visible #side-menu .nav-link:hover {
   color: #fff;
 }
 
-.main .hero .container .mailing .btn-click:hover {
+.main .hero .container .mailing .btn_click:hover {
   border: 2px solid #fff;
   background-color: #5DB442;
   color: #333333;
 }
 
 .main .hero .container .text2 {
+  font-size: 12px;
+  color: #fff;
+  margin: 15px;
+}
+
+.signup {
+  background: #efefef;
+  text-align: center;
+}
+
+.signup .hero {
+  padding: 70px 200px;
+}
+
+.signup .hero .container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.signup .hero .container .head {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.signup .hero .container .box {
+  margin: 45px auto;
+  padding: 32px;
+  width: 55%;
+  background: #fff;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.signup .hero .container .box .top .icon, .signup .hero .container .box .top i {
+  display: block;
+  padding: -2px 5px;
+  color: #efefef;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.signup .hero .container .box .top .icon:hover, .signup .hero .container .box .top i:hover {
+  color: #5DB442;
+}
+
+.signup .hero .container .box .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding: 32px 0;
+}
+
+.signup .hero .container .box .bottom .big_icon {
+  width: 50%;
+  text-align: right;
+}
+
+.signup .hero .container .box .bottom .big_icon .icon {
+  color: #5DB442;
+  font-size: 78px;
+  margin-right: 20%;
+}
+
+.signup .hero .container .box .bottom .big_icon .icon:hover {
+  color: #efefef;
+}
+
+.signup .hero .container .box .bottom .details {
+  width: 50%;
+  text-align: start;
+}
+
+.signup .hero .container .box .bottom .details .head {
+  font-size: 26px;
+  color: #5DB442;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.signup .hero .container .box .bottom .details .text .line {
+  margin: 15px;
+  color: #333333;
+}
+
+.signup .hero .container .three_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.signup .hero .container .three_icon .icon_caption {
+  padding: 10px;
+  margin: 15px;
+}
+
+.signup .hero .container .three_icon .icon_caption .icon {
+  border: 2px solid #5DB442;
+  border-radius: 50%;
+  color: #5DB442;
+  padding: 16px;
+}
+
+.signup .hero .container .three_icon .icon_caption .icon .icons {
+  color: #5DB442;
+}
+
+.signup .hero .container .three_icon .icon_caption .icon:hover {
+  background: #5DB442;
+  color: #fff;
+}
+
+.signup .hero .container .three_icon .icon_caption .icon:hover .icons {
+  color: #fff;
+}
+
+.signup .hero .container .three_icon .icon_caption .text {
   font-size: 14px;
   margin: 15px;
 }
