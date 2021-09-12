@@ -401,15 +401,16 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .service .hero .container .box .top {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 30%;
   position: relative;
 }
 
@@ -419,22 +420,28 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .service .hero .container .box .top .bgcolor {
+  width: 50%;
+  text-align: center;
+  color: #fff;
   background: #5DB442;
-  padding: 10px 20px;
+  padding: 10px 12px;
   border: 2px solid #5DB442;
   border-radius: 20px 0 0 20px;
 }
 
 .service .hero .container .box .top .line2 {
-  padding: 10px 20px;
+  width: 50%;
+  text-align: center;
+  padding: 10px 12px;
   border-radius: 0 20px 20px 0;
   border: 2px solid #efefef;
 }
 
 .service .hero .container .box .top .text {
-  padding: 10px;
+  padding: 8px;
   font-size: 12px;
   background: #4CA368;
+  color: #fff;
   border-radius: 50%;
   position: absolute;
 }
@@ -482,41 +489,97 @@ body.side-menu-visible #side-menu .nav-link:hover {
   color: #333333;
 }
 
-.service .hero .container .three_icon {
+.service .hero .container .row_contain .cart {
+  text-align: center;
+}
+
+.service .hero .container .row_contain .cart .top {
+  border: 2px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  position: relative;
+  height: 120px;
+}
+
+.service .hero .container .row_contain .cart .top .caption {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30%;
+  margin-top: -2px;
+  padding: 20px 0;
+  border-top: 5px solid #ececec;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.service .hero .container .row_contain .cart .top .circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90px;
+  height: 90px;
+  background: #fff;
+  border-radius: 50%;
+  border: 1px solid #5DB442;
+  -webkit-box-shadow: 0 0 8px #5DB442;
+          box-shadow: 0 0 8px #5DB442;
+  position: absolute;
+  right: 50%;
+  bottom: -50%;
+  -webkit-transform: translate(50%, -20%);
+          transform: translate(50%, -20%);
+}
+
+.service .hero .container .row_contain .cart .top .circle .bold {
+  font-size: 26px;
+}
+
+.service .hero .container .row_contain .cart .top .circle p {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.service .hero .container .row_contain .cart .bottom {
+  border: 2px solid #ececec;
+  border-top: 1px solid #ececec;
+  height: 250px;
+  padding: 60px 0;
+}
+
+.service .hero .container .row_contain .cart .bottom .line1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.service .hero .container .three_icon .icon_caption {
   padding: 10px;
-  margin: 15px;
+  font-size: 12px;
+  font-weight: 600;
 }
 
-.service .hero .container .three_icon .icon_caption .icon {
-  border: 2px solid #5DB442;
-  border-radius: 50%;
-  color: #5DB442;
-  padding: 16px;
+.service .hero .container .row_contain .cart .bottom .line1 .icon {
+  margin: 0 10px;
 }
 
-.service .hero .container .three_icon .icon_caption .icon .icons {
+.service .hero .container .row_contain .cart .bottom .line1 .on {
   color: #5DB442;
 }
 
-.service .hero .container .three_icon .icon_caption .icon:hover {
-  background: #5DB442;
-  color: #fff;
-}
-
-.service .hero .container .three_icon .icon_caption .icon:hover .icons {
-  color: #fff;
-}
-
-.service .hero .container .three_icon .icon_caption .text {
-  font-size: 14px;
-  margin: 15px;
+.service .hero .container .row_contain .cart .bottom .line1 .off {
+  color: red;
 }

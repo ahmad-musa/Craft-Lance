@@ -235,10 +235,12 @@
                 padding: 32px;
 
                 .top{
-                    display: flex;
+                    display: inline-flex;
                     justify-content: center;
                     align-items: center;
+                    width: 30%;
                     position: relative;
+                    // border: 2px solid red;
                     // box-shadow: 0 0 5px rgba(0,0,0,0.2);
                     // text-align: center;
 
@@ -249,24 +251,33 @@
                     }
 
                     .bgcolor{
+                        width: 50%;
+                        text-align: center;
+                        color: $white;
                         background: $color2;
-                        padding: 10px 20px;
+                        padding: 10px 12px;
                         border: 2px solid $color2;
                         border-radius: 20px 0 0 20px;
                     }
 
                     .line2{
-                        padding: 10px 20px;
+                        width: 50%;
+                        text-align: center;
+                        padding: 10px 12px;
                         border-radius: 0 20px 20px 0;
                         border: 2px solid $ash;
                     }
 
                     .text{
-                        padding: 10px;
+                        padding: 8px;
                         font-size: $fs_text1;
                         background: $color1;
+                        color: $white;
                         border-radius: 50%;
                         position: absolute;
+                        // left: 50%;
+                        // right: 50%;
+                        // transform: translateX(-50%,-50%);
                     }
                 }
 
@@ -312,44 +323,95 @@
                     }
                 }
             }
-            
-            .three_icon{
-                // margin-top: 60px;
-                display: flex;
-                justify-content: center;
+
+            .row_contain{
+
                 
-                .icon_caption{
-                    padding: 10px;
-                    margin: 15px;
-                    // width: 20%;
+                .cart{
+                    // padding: 0 50px;
+                    // border: 2px solid $ash;
+                    
+                    text-align: center;
+                    
+                    .top{
+                        border: 2px solid $offwhite;
+                        border-bottom: 1px solid $offwhite;
+                        position: relative;
+                        height: 120px;
 
-                    .icon{
-                        border: 2px solid $color2;
-                        border-radius: 50%;
-                        color: $color2;
-                        padding: $fs_text3;
-
-                        .icons{
-                            color: $color2; 
+                        .caption{
+                            display: inline-flex;
+                            justify-content: center;
+                            width: 30%;
+                            margin-top: -2px;
+                            padding: 20px 0;
+                            border-top: 5px solid $offwhite;
+                            font-size: $fs_text2;
+                            text-transform: uppercase;
+                            font-weight: 600;  
                         }
 
-                        &:hover{
-                            background: $color2 ;
-                            color: $white; 
+                        .circle{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            // padding: 50px;
+                            width: 90px;
+                            height: 90px;
+                            background: $white;
+                            border-radius: 50%;
+                            border: 1px solid $color2;
+                            box-shadow: 0 0 8px $color2;
+                            position: absolute;
+                            right: 50%;
+                            bottom: -50%;
+                            transform: translate(50%,-20%);
 
-                            .icons{
-                                color: $white; 
+                            .bold{
+                                font-size: $fs_subhead;
+                            }
+
+                            p{
+                                font-size: $fs_text1;
+                                font-style: italic;
                             }
                         }
 
                     }
 
-                    .text{
-                        font-size: $fs_text2;
-                        margin: 15px;
+                    .bottom{
+                        border: 2px solid $offwhite;
+                        border-top: 1px solid $offwhite;
+                        height: 250px;
+                        padding: 60px 0;
+                        // display: flex;
+                        // justify-content: center;
+                        // align-items: center;
+                        // flex-direction: column;
+
+                        .line1{
+                            // padding: 80px auto;
+                            display: flex;
+                            justify-content: center;
+                            padding: 10px;
+                            font-size: $fs_text1;
+                            font-weight: 600;
+
+                            .icon{
+                                margin: 0 10px;
+                            } 
+
+                            .on{
+                                color: $color2;
+                            }
+
+                            .off{
+                                color: $red;
+                            }
+                        }
                     }
                 }
-                    
             }
             
         }
