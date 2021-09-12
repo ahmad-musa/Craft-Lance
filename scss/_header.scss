@@ -77,10 +77,12 @@
 
                 i {
                     color: $white;
+                    font-size: $fs_text2;
                 }
 
                 .text {
                     margin: 0 0 0 $m_text;
+                    font-size: $fs_text2;
                 }
             }
         }
@@ -102,7 +104,7 @@
             .logo {
                 font-family: $basicsans7;
                 color: $logo;
-                font-size: 30px;
+                font-size: $fs_logo;
                 font-weight: bold;
                 text-transform: uppercase;
 
@@ -126,7 +128,7 @@
                     margin-left: $mx_menu;
                     padding: $py_menu 0 $py_menu $px_menu;
                     color: $white;
-                    font-size: $fs_text2;
+                    font-size: $fs_text3;
                     font-family: $roboto;
                     color: $black;
                     text-align: left;
