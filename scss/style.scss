@@ -230,9 +230,7 @@
             }
 
             .box{
-                margin: 15px 30px;
-                margin: 45px auto;
-                padding: 32px;
+                margin: 30px auto;
 
                 .top{
                     display: inline-flex;
@@ -240,9 +238,6 @@
                     align-items: center;
                     width: 30%;
                     position: relative;
-                    // border: 2px solid red;
-                    // box-shadow: 0 0 5px rgba(0,0,0,0.2);
-                    // text-align: center;
 
                     .line{
                         font-size: $fs_text1;
@@ -275,9 +270,6 @@
                         color: $white;
                         border-radius: 50%;
                         position: absolute;
-                        // left: 50%;
-                        // right: 50%;
-                        // transform: translateX(-50%,-50%);
                     }
                 }
 
@@ -328,8 +320,6 @@
 
                 
                 .cards{
-                    // padding: 0 50px;
-                    // border: 2px solid $ash;
                     margin: 0 7%;
                     text-align: center;
                     
@@ -345,8 +335,7 @@
                             width: 30%;
                             margin-top: -2px;
                             padding: 20px 0;
-                            border-top: 5px solid $offwhite;
-                            border-radius: 5px;
+                            border-top: 4px solid $offwhite;
                             font-size: $fs_text2;
                             text-transform: uppercase;
                             font-weight: 600;  
@@ -357,13 +346,12 @@
                             flex-direction: column;
                             align-items: center;
                             justify-content: center;
-                            // padding: 50px;
                             width: 90px;
                             height: 90px;
                             background: $white;
                             border-radius: 50%;
                             border: 1px solid $color2;
-                            box-shadow: 0 0 8px $color2;
+                            box-shadow: 0 0 5px $color2;
                             position: absolute;
                             right: 50%;
                             bottom: -50%;
@@ -386,10 +374,6 @@
                         border-top: 1px solid $offwhite;
                         height: 280px;
                         padding: 60px 0;
-                        // display: flex;
-                        // justify-content: center;
-                        // align-items: center;
-                        // flex-direction: column;
 
                         .line1{
                             // padding: 80px auto;
@@ -425,7 +409,11 @@
                     &:hover{
 
                         .caption{
-                            border-top: 5px solid $color2;
+                            border-top: 4px solid $color2;
+                        }
+
+                        .circle{
+                            box-shadow: 0 0 10px $color2;
                         }
 
                         .btn_purchase{

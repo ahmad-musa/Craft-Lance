@@ -395,9 +395,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .service .hero .container .box {
-  margin: 15px 30px;
-  margin: 45px auto;
-  padding: 32px;
+  margin: 30px auto;
 }
 
 .service .hero .container .box .top {
@@ -511,8 +509,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
   width: 30%;
   margin-top: -2px;
   padding: 20px 0;
-  border-top: 5px solid #ececec;
-  border-radius: 5px;
+  border-top: 4px solid #ececec;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 600;
@@ -537,8 +534,8 @@ body.side-menu-visible #side-menu .nav-link:hover {
   background: #fff;
   border-radius: 50%;
   border: 1px solid #5DB442;
-  -webkit-box-shadow: 0 0 8px #5DB442;
-          box-shadow: 0 0 8px #5DB442;
+  -webkit-box-shadow: 0 0 5px #5DB442;
+          box-shadow: 0 0 5px #5DB442;
   position: absolute;
   right: 50%;
   bottom: -50%;
@@ -596,7 +593,12 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .service .hero .container .row_contain .cards:hover .caption {
-  border-top: 5px solid #5DB442;
+  border-top: 4px solid #5DB442;
+}
+
+.service .hero .container .row_contain .cards:hover .circle {
+  -webkit-box-shadow: 0 0 10px #5DB442;
+          box-shadow: 0 0 10px #5DB442;
 }
 
 .service .hero .container .row_contain .cards:hover .btn_purchase {
