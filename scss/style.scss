@@ -10,7 +10,7 @@
     text-align: center;
 
     .hero{
-        padding: 70px $p_x;
+        padding: $s70 $p_x;
 
         .container{
             // padding: 0 $p_x2;
@@ -22,30 +22,30 @@
                 font-weight: 400;
             }
             .text{
-                // margin: 15px 30px;
+                // margin: $s15 $s30;
                 font-size: $fs_text3;
-                margin: 15px auto;
+                margin: $s15 auto;
                 width: 70%;
                 line-height: 1.5;
             }
 
             .image{
-                margin: 15px 0;
+                margin: $s15 0;
             }
 
             .mailing{
-                margin-top: 60px;
+                margin-top: $s60;
 
                 .mail{
-                    padding: 10px 20px;
+                    padding: $s10 $s20;
                     width: 35%;
                     border: 2px solid $white;
-                    border-radius: 20px 0 0 20px;
+                    border-radius: $s20 0 0 $s20;
                 }
 
                 .btn_click{
-                    padding: 12px 20px;
-                    border-radius: 0 20px 20px 0 ;
+                    padding: 12px $s20;
+                    border-radius: 0 $s20 $s20 0 ;
                     background-color: $color1_hover;
                     border: 2px solid $color1_hover;
                     color: $white;
@@ -63,7 +63,7 @@
             .text2{      
                 font-size: $fs_text1;
                 color: $white;
-                margin: 15px;
+                margin: $s15;
             }
 
         }
@@ -84,7 +84,7 @@
     text-align: center;
     
     .hero{
-        padding: 70px $p_x;
+        padding: $s70 $p_x;
 
         .container{
             // padding: 0 $p_x2;
@@ -97,7 +97,7 @@
             }
 
             .box{
-                // margin: 15px 30px;
+                // margin: $s15 $s30;
                 margin: 45px auto;
                 padding: 32px;
                 width: 55%;
@@ -147,14 +147,14 @@
                         .subhead{
                             font-size: $fs_subhead;
                             color: $color2;
-                            margin-bottom: 25px;
+                            margin-bottom: $s25;
                             text-transform: uppercase;
                         }
 
                         .text{
 
                             .line{
-                                margin: 15px;
+                                margin: $s15;
                                 color: $black_text;
                             }
                         }
@@ -164,13 +164,13 @@
             }
             
             .three_icon{
-                // margin-top: 60px;
+                // margin-top: $s60;
                 display: flex;
                 justify-content: center;
                 
                 .icon_caption{
-                    padding: 10px;
-                    margin: 15px;
+                    padding: $s10;
+                    margin: $s15;
                     // width: 20%;
 
                     .icon{
@@ -196,7 +196,7 @@
 
                     .text{
                         font-size: $fs_text2;
-                        margin: 15px;
+                        margin: $s15;
                     }
                 }
                     
@@ -218,7 +218,7 @@
     text-align: center;
     
     .hero{
-        padding: 70px $p_x;
+        padding: $s70 $p_x;
 
         .container{
             // padding: 0 $p_x2;
@@ -231,7 +231,7 @@
             }
 
             .box{
-                margin: 30px auto;
+                margin: $s30 auto;
 
                 .top{
                     display: inline-flex;
@@ -251,16 +251,16 @@
                         text-align: center;
                         color: $white;
                         background: $color2;
-                        padding: 10px 12px;
+                        padding: $s10 12px;
                         border: 2px solid $color2;
-                        border-radius: 20px 0 0 20px;
+                        border-radius: $s20 0 0 $s20;
                     }
 
                     .line2{
                         width: 50%;
                         text-align: center;
-                        padding: 10px 12px;
-                        border-radius: 0 20px 20px 0;
+                        padding: $s10 12px;
+                        border-radius: 0 $s20 $s20 0;
                         border: 2px solid $ash;
                     }
 
@@ -301,14 +301,14 @@
                         .head{
                             font-size: $fs_subhead;
                             color: $color2;
-                            margin-bottom: 25px;
+                            margin-bottom: $s25;
                             text-transform: uppercase;
                         }
 
                         .text{
 
                             .line{
-                                margin: 15px;
+                                margin: $s15;
                                 color: $black_text;
                             }
                         }
@@ -328,14 +328,14 @@
                         border: 2px solid $offwhite;
                         border-bottom: 1px solid $offwhite;
                         position: relative;
-                        height: 120px;
+                        height: $s120;
 
                         .caption{
                             display: inline-flex;
                             justify-content: center;
                             width: 30%;
                             margin-top: -2px;
-                            padding: 20px 0;
+                            padding: $s20 0;
                             border-top: 4px solid $offwhite;
                             font-size: $fs_text2;
                             text-transform: uppercase;
@@ -347,8 +347,8 @@
                             flex-direction: column;
                             align-items: center;
                             justify-content: center;
-                            width: 90px;
-                            height: 90px;
+                            width: $s90;
+                            height: $s90;
                             background: $white;
                             border-radius: 50%;
                             border: 1px solid $color2;
@@ -373,19 +373,19 @@
                     .bottom{
                         border: 2px solid $offwhite;
                         border-top: 1px solid $offwhite;
-                        height: 280px;
-                        padding: 60px 0;
+                        // height: 280px;
+                        padding: $s60 0;
 
                         .line1{
                             // padding: 80px auto;
                             display: flex;
                             justify-content: center;
-                            padding: 10px;
+                            padding: $s10;
                             font-size: $fs_text1;
                             font-weight: 600;
 
                             .icon{
-                                margin: 0 10px;
+                                margin: 0 $s10;
                             } 
 
                             .on{
@@ -398,12 +398,12 @@
                         }
 
                         .btn_purchase{
-                            margin: 20px;
-                            padding: 10px 25px;
+                            margin: $s20;
+                            padding: $s10 $s25;
                             font-size: $fs_text1;
                             text-transform: uppercase;
                             border: 2px solid $offwhite;
-                            border-radius: 20px;
+                            border-radius: $s20;
                         }
                     }
 
@@ -414,7 +414,7 @@
                         }
 
                         .circle{
-                            box-shadow: 0 0 10px $color2;
+                            box-shadow: 0 0 $s10 $color2;
                         }
 
                         .btn_purchase{
@@ -445,7 +445,7 @@
     background: $offwhite;
 
     .hero{
-        padding: 70px $p_x;
+        padding: $s70 $p_x;
 
         .container{
             width: 90%;
@@ -467,9 +467,8 @@
                     .icon{
                         font-size: $fs_iconlg;
                         color: $color2;
-                        padding: 15px 5px;
+                        padding: $s15 5px;
                         border-bottom: 3px solid $ash;
-
                     }
 
                     .subhead{
@@ -477,19 +476,20 @@
                         color: $black-text;
                         text-transform: uppercase;
                         font-weight: 400;
-                        margin: $s20;
+                        margin: $s20 0;
                     }
                     
                     .text{
                         color: $black_lite;
                         font-size: $fs_text1;
                         font-weight: 300;
-                        line-height: 1.3;
+                        line-height: 1.5;
                         margin: $s10;
                     }
 
                     &:hover{
                         background: $color2;
+
                         .icon,.subhead,.text{
                             color: $white;
                         }
