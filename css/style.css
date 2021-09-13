@@ -17,7 +17,7 @@
 }
 
 .header .container_top {
-  height: 50px;
+  height: 40px;
   margin: 0;
   padding: 0 200px;
   background: #282828;
@@ -199,7 +199,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .main .hero {
-  padding: 70px 200px;
+  padding: 45px 200px;
 }
 
 .main .hero .container {
@@ -210,6 +210,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
 .main .hero .container .head1 {
   font-size: 48px;
   font-weight: 400;
+  margin: 45px;
 }
 
 .main .hero .container .text {
@@ -260,7 +261,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .signup .hero {
-  padding: 70px 200px;
+  padding: 45px 200px;
 }
 
 .signup .hero .container {
@@ -271,11 +272,12 @@ body.side-menu-visible #side-menu .nav-link:hover {
 .signup .hero .container .head {
   font-size: 48px;
   font-weight: 400;
+  margin: 45px;
 }
 
 .signup .hero .container .box {
   margin: 45px auto;
-  padding: 32px;
+  padding: 30px;
   width: 55%;
   background: #fff;
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -286,7 +288,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
   display: block;
   padding: -2px 5px;
   color: #efefef;
-  font-size: 24px;
+  font-size: 30px;
   cursor: pointer;
 }
 
@@ -302,7 +304,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  padding: 32px 0;
+  padding: 30px 0;
 }
 
 .signup .hero .container .box .bottom .big_icon {
@@ -381,7 +383,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .service .hero {
-  padding: 70px 200px;
+  padding: 45px 200px;
 }
 
 .service .hero .container {
@@ -392,6 +394,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
 .service .hero .container .head {
   font-size: 48px;
   font-weight: 400;
+  margin: 45px;
 }
 
 .service .hero .container .box {
@@ -452,7 +455,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  padding: 32px 0;
+  padding: 30px 0;
 }
 
 .service .hero .container .box .bottom .big_icon {
@@ -611,7 +614,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .platform .hero {
-  padding: 70px 200px;
+  padding: 45px 200px;
 }
 
 .platform .hero .container {
@@ -622,6 +625,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
 .platform .hero .container .head {
   font-size: 48px;
   font-weight: 400;
+  margin: 45px;
 }
 
 .platform .hero .container .col_contain .cards {
@@ -629,7 +633,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
   -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
   padding: 20px;
-  margin: 7px;
+  margin: 15px;
 }
 
 .platform .hero .container .col_contain .cards .icon {

@@ -10,7 +10,7 @@
     text-align: center;
 
     .hero{
-        padding: $s70 $p_x;
+        padding: $s45 $p_x;
 
         .container{
             // padding: 0 $p_x2;
@@ -20,6 +20,7 @@
             .head1{
                 font-size: $fs_head;
                 font-weight: 400;
+                margin: $s45;
             }
             .text{
                 // margin: $s15 $s30;
@@ -84,7 +85,7 @@
     text-align: center;
     
     .hero{
-        padding: $s70 $p_x;
+        padding: $s45 $p_x;
 
         .container{
             // padding: 0 $p_x2;
@@ -94,12 +95,13 @@
             .head{
                 font-size: $fs_head;
                 font-weight: 400;
+                margin: $s45;
             }
 
             .box{
                 // margin: $s15 $s30;
-                margin: 45px auto;
-                padding: 32px;
+                margin: $s45 auto;
+                padding: $s30;
                 width: 55%;
                 background: $white;
                 box-shadow: 0 0 5px rgba(0,0,0,0.2);
@@ -110,7 +112,7 @@
                         display: block;
                         padding: -2px 5px;
                         color: $ash;
-                        font-size: 24px;
+                        font-size: $fs_logo;
                         cursor: pointer;
 
                         &:hover{
@@ -123,7 +125,7 @@
                     display: flex;
                     justify-content: center;
                     width: 100%;
-                    padding: 32px 0;
+                    padding: $s30 0;
 
                     .big_icon{
                         width: 50%;
@@ -218,7 +220,7 @@
     text-align: center;
     
     .hero{
-        padding: $s70 $p_x;
+        padding: $s45 $p_x;
 
         .container{
             // padding: 0 $p_x2;
@@ -228,6 +230,7 @@
             .head{
                 font-size: $fs_head;
                 font-weight: 400;
+                margin: $s45;
             }
 
             .box{
@@ -278,7 +281,7 @@
                     display: flex;
                     justify-content: center;
                     width: 100%;
-                    padding: 32px 0;
+                    padding: $s30 0;
 
                     .big_icon{
                         width: 50%;
@@ -445,7 +448,7 @@
     background: $offwhite;
 
     .hero{
-        padding: $s70 $p_x;
+        padding: $s45 $p_x;
 
         .container{
             width: 90%;
@@ -454,6 +457,7 @@
             .head{
                 font-size: $fs_head;
                 font-weight: 400;
+                margin: $s45;
             }
 
             .col_contain{
@@ -462,7 +466,7 @@
                     background: $white;
                     box-shadow: 0 0 2px rgba(0,0,0,0.2);
                     padding: $s20;
-                    margin: $s7;
+                    margin: $s15;
 
                     .icon{
                         font-size: $fs_iconlg;

@@ -11,7 +11,7 @@
     }
 
     .container_top {
-        height: 50px;
+        height: $s40;
         margin: 0;
         padding: 0 $p_x;
         background: $black;
@@ -26,10 +26,10 @@
 
             .links {
                 // background: $color2;
-                width: 35px;
-                height: 35px;
-                padding: $p_icon;
-                margin: $m_icon;
+                width: $s35;
+                height: $s35;
+                padding: $s15;
+                margin: $s2;
                 border-radius: 2px;
                 text-align: center;
                 // border: 1px solid $color2;
@@ -57,14 +57,10 @@
 
 
         .contact_top {
-            // display: flex;
-            // justify-content: flex-end;
-            // align-items: center;
-            // margin: auto 0;
 
             .links {
-                padding: $p_icon 0 $p_icon $p_icon;
-                margin: $m_icon 0 $m_icon $m_icon;
+                padding: $s15 0 $s15 $s15;
+                margin: $s2 0 $s2 $s2;
                 // border: 1px solid $color2;
                 color: $white;
 
@@ -99,7 +95,7 @@
         }
 
         #Nav {
-            padding: $py_menu 0;
+            padding: $s10 0;
 
             .logo {
                 font-family: $basicsans7;
@@ -125,8 +121,8 @@
             #navbarText {
 
                 .nav-link {
-                    margin-left: $mx_menu;
-                    padding: $py_menu 0 $py_menu $px_menu;
+                    margin-left: $s35;
+                    padding: $s10 0 $s10 $s20;
                     color: $white;
                     font-size: $fs_text3;
                     font-family: $roboto;
@@ -139,7 +135,7 @@
                 }
 
                 .btn-click{
-                    padding: $py_menu $px_menu;
+                    padding: $s10 $s20;
                     border: 2px solid $color2;
                     border-radius: 25px;
 

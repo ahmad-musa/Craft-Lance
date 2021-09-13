@@ -24,7 +24,7 @@ sans-serif;
 $opensans : 'Open Sans',
 sans-serif;
 
-// measurement
+// Font Size
 $fs_logo   : 30px;
 $fs_iconlg : 60px;
 $fs_headlg : 78px;
@@ -35,27 +35,24 @@ $fs_text2  : 14px;
 $fs_text3  : 16px;
 
 
-
-$p_x2: 100px;
-$p_icon: 15px;
-$m_icon: 2px;
-$m_text: 12px;
-$py_menu: 10px;
-$px_menu: 20px;
-$my_menu: 10px;
-$mx_menu: 35px;
+// Spacing
 
 $p_x: 200px;
 $s120: 120px;
 $s90: 90px;
+$s80: 80px;
 $s70: 70px;
 $s60: 60px;
+$s45: 45px;
+$s40: 40px;
+$s35: 35px; // Social Logo
 $s30: 30px;
 $s25: 25px;
 $s20: 20px;
 $s15: 15px;
 $s10: 10px;
 $s7: 7px;
+$s2: 2px;
 
 
 @font-face {
