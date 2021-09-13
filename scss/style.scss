@@ -461,23 +461,37 @@
                 .cards{
                     background: $white;
                     box-shadow: 0 0 2px rgba(0,0,0,0.2);
+                    padding: $s20;
+
                     .icon{
                         font-size: $fs_iconlg;
                         color: $color2;
                         padding: 15px 5px;
-                        border-bottom: 3px solid $white;
+                        border-bottom: 3px solid $ash;
 
                     }
 
                     .subhead{
                         font-size: $fs_text3;
+                        color: $black-text;
                         text-transform: uppercase;
-                        font-weight: 600;
+                        font-weight: 400;
+                        margin: $s20;
+                    }
+                    
+                    .text{
+                        color: $black_lite;
+                        font-size: $fs_text1;
+                        font-weight: 300;
+                        line-height: 1.3;
+                        margin: $s10;
                     }
 
-                    .text{
-                        color: $ash;
-                        line-height: 1.3;
+                    &:hover{
+                        background: $color2;
+                        .icon,.subhead,.text{
+                            color: $white;
+                        }
                     }
                 }
             }
