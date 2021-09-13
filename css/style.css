@@ -207,7 +207,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
   margin: 0 auto;
 }
 
-.main .hero .container .head {
+.main .hero .container .head1 {
   font-size: 48px;
   font-weight: 400;
 }
@@ -325,7 +325,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
   text-align: start;
 }
 
-.signup .hero .container .box .bottom .details .head {
+.signup .hero .container .box .bottom .details .subhead {
   font-size: 26px;
   color: #5DB442;
   margin-bottom: 25px;
@@ -604,4 +604,47 @@ body.side-menu-visible #side-menu .nav-link:hover {
 .service .hero .container .row_contain .cards:hover .btn_purchase {
   color: #fff;
   background: #5DB442;
+}
+
+.platform {
+  text-align: center;
+  background: #ececec;
+}
+
+.platform .hero {
+  padding: 70px 200px;
+}
+
+.platform .hero .container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.platform .hero .container .head {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.platform .hero .container .col_contain .cards {
+  background: #fff;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.platform .hero .container .col_contain .cards .icon {
+  font-size: 60px;
+  color: #5DB442;
+  padding: 15px 5px;
+  border-bottom: 3px solid #fff;
+}
+
+.platform .hero .container .col_contain .cards .subhead {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.platform .hero .container .col_contain .cards .text {
+  color: #efefef;
+  line-height: 1.3;
 }
