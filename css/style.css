@@ -88,7 +88,7 @@
 }
 
 .header .container_top .contact_top .links .text {
-  margin: 0 0 0 12px;
+  margin: 0 0 0 10px;
   font-size: 14px;
 }
 
@@ -203,14 +203,13 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .main .hero .container {
-  width: 90%;
   margin: 0 auto;
 }
 
 .main .hero .container .head1 {
   font-size: 48px;
   font-weight: 400;
-  margin: 45px;
+  margin: 45px auto;
 }
 
 .main .hero .container .text {
@@ -594,6 +593,11 @@ body.side-menu-visible #side-menu .nav-link:hover {
   border-radius: 20px;
 }
 
+.service .hero .container .row_contain .cards:hover {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
 .service .hero .container .row_contain .cards:hover .caption {
   border-top: 4px solid #5DB442;
 }
@@ -606,6 +610,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
 .service .hero .container .row_contain .cards:hover .btn_purchase {
   color: #fff;
   background: #5DB442;
+  border: 2px solid #5DB442;
 }
 
 .platform {
