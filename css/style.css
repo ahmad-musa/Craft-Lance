@@ -257,7 +257,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .signup {
-  background: #efefef;
+  background: #ececec;
   text-align: center;
 }
 
@@ -268,7 +268,6 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .signup .hero .container {
-  width: 90%;
   margin: 0 auto;
 }
 
@@ -290,7 +289,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
 .signup .hero .container .box .top .icon, .signup .hero .container .box .top i {
   display: block;
   padding: -2px 5px;
-  color: #efefef;
+  color: #ececec;
   font-size: 30px;
   cursor: pointer;
 }
@@ -392,7 +391,6 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .service .hero .container {
-  width: 90%;
   margin: 0 auto;
 }
 
@@ -631,7 +629,6 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .platform .hero .container {
-  width: 90%;
   margin: 0 auto;
 }
 
@@ -685,37 +682,117 @@ body.side-menu-visible #side-menu .nav-link:hover {
   background: #efefef;
 }
 
-.footer .hero {
+.footer .hero .container {
+  margin: 0 auto;
+}
+
+.footer .hero .container .top .row {
   padding: 45px 200px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-.footer .hero .container {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.footer .hero .container .top .col_container {
+.footer .hero .container .top .row .col_container {
   margin: 0 20px;
 }
 
-.footer .hero .container .top .col_container .subhead {
+.footer .hero .container .top .row .col_container .subhead {
   margin: 15px 0;
   color: #333333;
   font-size: 16px;
 }
 
-.footer .hero .container .top .col_container .subhead:hover {
+.footer .hero .container .top .row .col_container .subhead:hover {
   color: #5DB442;
 }
 
-.footer .hero .container .top .col_container .text {
+.footer .hero .container .top .row .col_container .tiny_text {
+  color: #777777;
+  font-size: 12px;
+  line-height: 2;
+}
+
+.footer .hero .container .top .row .col_container .box {
+  margin: 15px 0;
+}
+
+.footer .hero .container .top .row .col_container .box .email {
+  width: 80%;
+  padding: 10px;
+  color: #777777;
+}
+
+.footer .hero .container .top .row .col_container .box .email:focus {
+  outline: 2px solid #5DB442;
+}
+
+.footer .hero .container .top .row .col_container .box .icon {
+  padding: 10px 20px;
+  background: #5DB442;
+  color: #fff;
+  font-size: 16px;
+  outline: 2px solid #5DB442;
+}
+
+.footer .hero .container .top .row .col_container .box .icon:hover {
+  color: #5DB442;
+  background: #fff;
+  outline: 2px solid #5DB442;
+}
+
+.footer .hero .container .top .row .col_container .text {
   margin: 5px 0;
   color: #777777;
   font-size: 12px;
 }
 
-.footer .hero .container .top .col_container .text:hover {
+.footer .hero .container .top .row .col_container .text:hover {
+  color: #5DB442;
+}
+
+.footer .hero .container .bottom {
+  border-top: 2px solid #fff;
+  padding: 30px 0;
+}
+
+.footer .hero .container .bottom .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 200px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.footer .hero .container .bottom .container .footer_logo {
+  font-family: "Basic Sans Serif 7", sans-serif;
+  font-size: 20px;
+}
+
+.footer .hero .container .bottom .container .footer_logo:hover {
+  color: #5DB442;
+}
+
+.footer .hero .container .bottom .container .credit {
+  font-size: 12px;
+  color: #777777;
+  line-height: 1.5;
+}
+
+.footer .hero .container .bottom .container .credit p {
+  text-align: end;
+}
+
+.footer .hero .container .bottom .container .credit p .dev {
+  font-weight: 600;
+}
+
+.footer .hero .container .bottom .container .credit p .dev:hover {
   color: #5DB442;
 }

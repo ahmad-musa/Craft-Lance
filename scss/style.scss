@@ -81,7 +81,7 @@
 // Signup Section Starts
 
 .signup{
-    background: $ash;
+    background: $offwhite;
     // height: 620px;
     text-align: center;
     
@@ -91,7 +91,7 @@
 
         .container{
             // padding: 0 $p_x2;
-            width: 90%;
+            // width: 90%;
             margin: 0 auto;
             
             .head{
@@ -113,7 +113,7 @@
                     .icon, i{
                         display: block;
                         padding: -2px 5px;
-                        color: $ash;
+                        color: $offwhite;
                         font-size: $fs_logo;
                         cursor: pointer;
 
@@ -137,6 +137,7 @@
                             color: $color2;
                             font-size: $fs_headlg;
                             margin-right: 20%;
+
                             &:hover{
                                 color: $ash;
                             }
@@ -227,7 +228,7 @@
 
         .container{
             // padding: 0 $p_x2;
-            width: 90%;
+            // width: 90%;
             margin: 0 auto;
             
             .head{
@@ -458,7 +459,7 @@
         // box-sizing: border-box;
 
         .container{
-            width: 90%;
+            // width: 90%;
             margin: 0 auto;
 
             .head{
@@ -531,40 +532,123 @@
     background: $ash;
 
     .hero{
-        padding: $s45 $p_x;
-        box-sizing: border-box;
 
         .container{
-            width: 90%;
+            // width: 90%;
             margin: 0 auto;
 
             .top{
+                // border-bottom: 2px solid $white;
 
-                .col_container{
-                    margin: 0 $s20;
+                .row{
+                    
+                    padding: $s45 $p_x;
+                    box-sizing: border-box;
+                    // justify-content: space-between;
+                    
+                    .col_container{
+                        margin: 0 $s20;
 
-                    .subhead{
-                        margin: $s15 0;
-                        color: $black_text;
-                        font-size: $fs_text3;
+                        .subhead{
+                            margin: $s15 0;
+                            color: $black_text;
+                            font-size: $fs_text3;
 
-                        &:hover{
-                            color: $color2;
+                            &:hover{
+                                color: $color2;
+                            }
                         }
-                    }
+                        .tiny_text{
+                            // margin: $s5 0;
+                            color: $black_lite;
+                            font-size: $fs_text1;
+                            line-height: 2;
+                        }
 
-                    .text{
-                        margin: $s5 0;
-                        // display: block;
-                        color: $black_lite;
-                        font-size: $fs_text1;
+                        .box{
+                            margin: $s15 0; 
 
-                        &:hover{
-                            color: $color2; 
+                            .email{
+                                width: 80%;
+                                padding: $s10; 
+                                color: $black_lite;
+
+                                &:focus{
+                                    outline: 2px solid $color2;
+                                }
+                            }
+
+                            .icon{
+                                padding: $s10 $s20; 
+                                background: $color2;
+                                color: $white;
+                                font-size: $fs_text3;
+                                outline: 2px solid $color2;
+                                
+                                &:hover{
+                                    color: $color2;
+                                    background: $white;
+                                    outline: 2px solid $color2;
+                                }
+
+                            }
+                        }
+
+                        .text{
+                            margin: $s5 0;
+                            color: $black_lite;
+                            font-size: $fs_text1;
+
+                            &:hover{
+                                color: $color2; 
+                            }
                         }
                     }
                 }
 
+            }
+
+            
+            .bottom{
+                border-top: 2px solid $white;
+                padding: $s30 0;
+
+                .container{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 0 $p_x;
+                    box-sizing: border-box;
+
+                    .footer_logo{
+                        font-family: $basicsans7;
+                        font-size: $fs_logosm;
+    
+                        &:hover{
+                            color: $color2; 
+                        }
+                    }
+    
+                    .credit{
+                        font-size: $fs_text1;
+                        color: $black_lite;
+                        line-height: 1.5;
+
+                        p{
+                            text-align: end;
+
+                            .dev{
+                                font-weight: 600;
+                                &:hover{
+                                    color: $color2; 
+                                }
+                            }
+    
+                        }
+                            
+                    }
+                }
+                
             }
 
         }
