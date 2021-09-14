@@ -11,6 +11,7 @@
 
     .hero{
         padding: $s45 $p_x;
+        box-sizing: border-box;
 
         .container{
             // padding: 0 $p_x2;
@@ -86,6 +87,7 @@
     
     .hero{
         padding: $s45 $p_x;
+        box-sizing: border-box;
 
         .container{
             // padding: 0 $p_x2;
@@ -221,6 +223,7 @@
     
     .hero{
         padding: $s45 $p_x;
+        box-sizing: border-box;
 
         .container{
             // padding: 0 $p_x2;
@@ -451,6 +454,8 @@
 
     .hero{
         padding: $s45 $p_x;
+        box-sizing: border-box;
+        // box-sizing: border-box;
 
         .container{
             width: 90%;
@@ -517,3 +522,52 @@
 
 
 // Platform Section Ends
+
+
+// Footer Section Starts
+
+.footer{
+    text-align: left;
+    background: $ash;
+
+    .hero{
+        padding: $s45 $p_x;
+        box-sizing: border-box;
+
+        .container{
+            width: 90%;
+            margin: 0 auto;
+
+            .top{
+
+                .col_container{
+                    margin: 0 $s20;
+
+                    .subhead{
+                        margin: $s15 0;
+                        color: $black_text;
+                        font-size: $fs_text3;
+
+                        &:hover{
+                            color: $color2;
+                        }
+                    }
+
+                    .text{
+                        margin: $s5 0;
+                        // display: block;
+                        color: $black_lite;
+                        font-size: $fs_text1;
+
+                        &:hover{
+                            color: $color2; 
+                        }
+                    }
+                }
+
+            }
+
+        }
+    }
+}
+// Footer Section Ends

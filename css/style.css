@@ -200,6 +200,8 @@ body.side-menu-visible #side-menu .nav-link:hover {
 
 .main .hero {
   padding: 45px 200px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .main .hero .container {
@@ -261,6 +263,8 @@ body.side-menu-visible #side-menu .nav-link:hover {
 
 .signup .hero {
   padding: 45px 200px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .signup .hero .container {
@@ -383,6 +387,8 @@ body.side-menu-visible #side-menu .nav-link:hover {
 
 .service .hero {
   padding: 45px 200px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .service .hero .container {
@@ -620,6 +626,8 @@ body.side-menu-visible #side-menu .nav-link:hover {
 
 .platform .hero {
   padding: 45px 200px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .platform .hero .container {
@@ -670,4 +678,44 @@ body.side-menu-visible #side-menu .nav-link:hover {
 
 .platform .hero .container .col_contain .cards:hover .icon, .platform .hero .container .col_contain .cards:hover .subhead, .platform .hero .container .col_contain .cards:hover .text {
   color: #fff;
+}
+
+.footer {
+  text-align: left;
+  background: #efefef;
+}
+
+.footer .hero {
+  padding: 45px 200px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.footer .hero .container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer .hero .container .top .col_container {
+  margin: 0 20px;
+}
+
+.footer .hero .container .top .col_container .subhead {
+  margin: 15px 0;
+  color: #333333;
+  font-size: 16px;
+}
+
+.footer .hero .container .top .col_container .subhead:hover {
+  color: #5DB442;
+}
+
+.footer .hero .container .top .col_container .text {
+  margin: 5px 0;
+  color: #777777;
+  font-size: 12px;
+}
+
+.footer .hero .container .top .col_container .text:hover {
+  color: #5DB442;
 }
