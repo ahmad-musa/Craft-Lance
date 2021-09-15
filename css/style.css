@@ -237,11 +237,13 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .main .hero .container .mailing .btn_click {
+  color: #fff;
   padding: 12px 20px;
   border-radius: 0 20px 20px 0;
   background-color: #37804E;
   border: 2px solid #37804E;
-  color: #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .main .hero .container .mailing .btn_click:hover {
@@ -284,6 +286,8 @@ body.side-menu-visible #side-menu .nav-link:hover {
   background: #fff;
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .signup .hero .container .box .top .icon, .signup .hero .container .box .top i {
@@ -401,6 +405,8 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .service .hero .container .box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 30px auto;
 }
 
@@ -421,6 +427,8 @@ body.side-menu-visible #side-menu .nav-link:hover {
 .service .hero .container .box .top .line {
   font-size: 12px;
   font-weight: 600;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .service .hero .container .box .top .bgcolor {
@@ -713,6 +721,8 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .footer .hero .container .top .row .col_container .box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 15px 0;
 }
 
@@ -796,3 +806,36 @@ body.side-menu-visible #side-menu .nav-link:hover {
 .footer .hero .container .bottom .container .credit p .dev:hover {
   color: #5DB442;
 }
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media screen and (max-width: 575.98px) {
+  .header .container {
+    margin: 0;
+    padding: 0 10px;
+  }
+  .header .container .container_top {
+    margin: 0 auto;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header .container .container_top .contact_top .links {
+    display: none;
+  }
+  .main .hero {
+    padding: 15px 10px;
+  }
+  .main .hero .container .image {
+    margin: 15px 0;
+    width: 200px;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+/* // Medium devices (tablets, less than 992px) */
+/* // Large devices (desktops, less than 1200px) */
+/* // X-Large devices (large desktops, less than 1400px) */
