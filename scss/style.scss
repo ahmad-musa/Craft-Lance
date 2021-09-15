@@ -46,11 +46,12 @@
                 }
 
                 .btn_click{
-                    padding: 12px $s20;
+                    color: $white;
+                    padding: $s12 $s20;
                     border-radius: 0 $s20 $s20 0 ;
                     background-color: $color1_hover;
                     border: 2px solid $color1_hover;
-                    color: $white;
+                    box-sizing: border-box;
 
                     &:hover{
                         border: 2px solid $white;
@@ -101,18 +102,20 @@
             }
 
             .box{
+                
                 // margin: $s15 $s30;
                 margin: $s45 auto;
                 padding: $s30;
                 width: 55%;
                 background: $white;
-                box-shadow: 0 0 5px rgba(0,0,0,0.2);
+                box-shadow: 0 0 $s5 rgba(0,0,0,0.2);
+                box-sizing: border-box;
 
                 .top{
 
                     .icon, i{
                         display: block;
-                        padding: -2px 5px;
+                        padding: -2px $s5;
                         color: $offwhite;
                         font-size: $fs_logo;
                         cursor: pointer;
@@ -238,6 +241,7 @@
             }
 
             .box{
+                box-sizing: border-box;
                 margin: $s30 auto;
 
                 .top{
@@ -250,7 +254,7 @@
                     .line{
                         font-size: $fs_text1;
                         font-weight: 600;
-                        
+                        box-sizing: border-box;
                     }
 
                     .bgcolor{
@@ -258,7 +262,7 @@
                         text-align: center;
                         color: $white;
                         background: $color2;
-                        padding: $s10 12px;
+                        padding: $s10 $s12;
                         border: 2px solid $color2;
                         border-radius: $s20 0 0 $s20;
                     }
@@ -266,7 +270,7 @@
                     .line2{
                         width: 50%;
                         text-align: center;
-                        padding: $s10 12px;
+                        padding: $s10 $s12;
                         border-radius: 0 $s20 $s20 0;
                         border: 2px solid $ash;
                     }
@@ -359,7 +363,7 @@
                             background: $white;
                             border-radius: 50%;
                             border: 1px solid $color2;
-                            box-shadow: 0 0 5px $color2;
+                            box-shadow: 0 0 $s5 $color2;
                             position: absolute;
                             right: 50%;
                             bottom: -50%;
@@ -415,7 +419,7 @@
                     }
 
                     &:hover{
-                        box-shadow: 0 0 5px rgba(0,0,0,0.25);
+                        box-shadow: 0 0 $s5 rgba(0,0,0,0.25);
 
                         .caption{
                             border-top: 4px solid $color2;
@@ -479,7 +483,7 @@
                     .icon{
                         font-size: $fs_iconlg;
                         color: $color2;
-                        padding: $s15 5px;
+                        padding: $s15 $s5;
                         border-bottom: 3px solid $ash;
                     }
 
@@ -566,6 +570,7 @@
                         }
 
                         .box{
+                            box-sizing: border-box;
                             margin: $s15 0; 
 
                             .email{
