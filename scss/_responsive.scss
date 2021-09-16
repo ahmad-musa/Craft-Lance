@@ -1,18 +1,31 @@
+    
+// Font Size
+$fs_headlg : 50px;
+$fs_iconlg : 30px;
+$fs_head   : 32px;
+$fs_logo   : 20px;
+$fs_subhead: 20px;
+$fs_logosm : 15px;
+$fs_text1  : 12px;
+$fs_text2  : 14px;
+$fs_text3  : 16px;
+
+   
     $p_x: 10px;
     $s120: 12px;
-    $s90: 90px;
-    $s80: 80px;
-    $s70: 70px;
-    $s60: 60px;
+    $s90: 45px;
+    $s80: 40px;
+    $s70: 35px;
+    $s60: 30px;
     $s45: 15px;
-    $s40: 40px;
-    $s35: 35px; // Social Logo
-    $s30: 30px;
-    $s25: 25px;
-    $s20: 20px;
-    $s15: 15px;
-    $s12: 12px;
-    $s10: 10px;
+    $s40: 20px;
+    $s35: 17px; // Social Logo
+    $s30: 15px;
+    $s25: 13px;
+    $s20: 10px;
+    $s15: 10px;
+    $s12: 8px;
+    $s10: 6px;
     $s7: 7px;
     $s5: 5px;
     $s2: 2px;
@@ -23,41 +36,148 @@
     
     .header {
 
-        .container {
-            margin: 0;
-            padding: 0 $p_x;
-
             .container_top {
-                margin: 0 auto;
-                padding: 0;
+                padding: 0 $p_x;
                 display: flex;
                 justify-content: center;
 
                 .contact_top {
-                    .links{
-                        display: none;
-                    }
+                    display: none;
                 }    
             }
 
-            
-        }
+            .container_bottom {
+                padding: 0 $p_x;
+
+                
+                #Nav{
+                     padding: 0;
+                     
+                    .logo {
+                        padding-left: $s15;
+                        font-size: $fs_logo;
+                    }
+                }
+            }
 
     }
 
     
 
-    .main .hero{
+    .main .hero,
+    .signup .hero,
+    .service .hero,
+    .platform .hero,{
         padding: $s45 $p_x;
 
         .container{
 
+            .head{
+                font-size: $fs_head;
+                margin: $s45 auto;
+            }
+
+            .text {
+                font-size: $fs_text2;
+                width: 90%;
+                text-align: justify;
+            }
+
             .image {
                 margin: $s15 0;
-                width: 200px;
+                width: 100%;
+
+                img{
+                    width: 80%;
+                }
+            }
+
+            .mailing {
+                margin-top: $s60;
+                font-size: $fs_text2;
+
+                .mail {
+                    padding: $s10 $s20;
+                    width: 50%;
+                }
+
+                .btn_click {
+                    padding: $s12 $s20;
+                }
+            }
+
+            .box{
+                margin: $s45 auto;
+                padding: $s30 $s15;
+                width: 90%;
+
+                .top{
+                    
+                    i{
+                        font-size: $s30;
+                    }
+                } 
+
+                .bottom{
+                    padding: $s30 0 0 0;
+
+                    .big_icon{
+                        width: 40%;
+
+                        .icon {
+                            color: #5DB442;
+                            font-size: $fs_headlg;
+                            margin-right: 20%;
+                        }
+                    } 
+
+                    .details{
+                        width: 60%;
+                        
+                        .subhead {
+                            font-size: $fs_subhead;
+                            margin-bottom: $s25;
+                        }
+                    }
+                }
+                
+            }
+
+            .three_icon {
+
+                .icon_caption {
+                    padding: 0;
+                    margin: $s5;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+
+                    .icon{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                    .text {
+                        font-size: $fs_text1;
+                        margin: $s5;
+                    }
+                }
             }
         } 
     }
+
+        .footer{
+            .hero {
+                .container {
+                    .top {
+                        .row {
+                            padding: $s45 $p_x;
+                        }
+                    }
+                }
+            } 
+        } 
     
 }
 

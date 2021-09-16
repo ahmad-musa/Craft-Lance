@@ -13,7 +13,6 @@
 
 .header .container {
   margin: 0;
-  padding: 0 200px;
 }
 
 .header .container_top {
@@ -90,6 +89,10 @@
 .header .container_top .contact_top .links .text {
   margin: 0 0 0 10px;
   font-size: 14px;
+}
+
+.header .container_bottom {
+  padding: 0 200px;
 }
 
 .header .container_bottom .navbar_spacing {
@@ -208,7 +211,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
   margin: 0 auto;
 }
 
-.main .hero .container .head1 {
+.main .hero .container .head {
   font-size: 48px;
   font-weight: 400;
   margin: 45px auto;
@@ -809,13 +812,8 @@ body.side-menu-visible #side-menu .nav-link:hover {
 
 /* // X-Small devices (portrait phones, less than 576px) */
 @media screen and (max-width: 575.98px) {
-  .header .container {
-    margin: 0;
+  .header .container_top {
     padding: 0 10px;
-  }
-  .header .container .container_top {
-    margin: 0 auto;
-    padding: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -823,15 +821,158 @@ body.side-menu-visible #side-menu .nav-link:hover {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .header .container .container_top .contact_top .links {
+  .header .container_top .contact_top {
     display: none;
   }
-  .main .hero {
+  .header .container_bottom {
+    padding: 0 10px;
+  }
+  .header .container_bottom #Nav {
+    padding: 0;
+  }
+  .header .container_bottom #Nav .logo {
+    padding-left: 10px;
+    font-size: 20px;
+  }
+  .main .hero,
+  .signup .hero,
+  .service .hero,
+  .platform .hero {
     padding: 15px 10px;
   }
-  .main .hero .container .image {
-    margin: 15px 0;
-    width: 200px;
+  .main .hero .container .head,
+  .signup .hero .container .head,
+  .service .hero .container .head,
+  .platform .hero .container .head {
+    font-size: 32px;
+    margin: 15px auto;
+  }
+  .main .hero .container .text,
+  .signup .hero .container .text,
+  .service .hero .container .text,
+  .platform .hero .container .text {
+    font-size: 14px;
+    width: 90%;
+    text-align: justify;
+  }
+  .main .hero .container .image,
+  .signup .hero .container .image,
+  .service .hero .container .image,
+  .platform .hero .container .image {
+    margin: 10px 0;
+    width: 100%;
+  }
+  .main .hero .container .image img,
+  .signup .hero .container .image img,
+  .service .hero .container .image img,
+  .platform .hero .container .image img {
+    width: 80%;
+  }
+  .main .hero .container .mailing,
+  .signup .hero .container .mailing,
+  .service .hero .container .mailing,
+  .platform .hero .container .mailing {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  .main .hero .container .mailing .mail,
+  .signup .hero .container .mailing .mail,
+  .service .hero .container .mailing .mail,
+  .platform .hero .container .mailing .mail {
+    padding: 6px 10px;
+    width: 50%;
+  }
+  .main .hero .container .mailing .btn_click,
+  .signup .hero .container .mailing .btn_click,
+  .service .hero .container .mailing .btn_click,
+  .platform .hero .container .mailing .btn_click {
+    padding: 8px 10px;
+  }
+  .main .hero .container .box,
+  .signup .hero .container .box,
+  .service .hero .container .box,
+  .platform .hero .container .box {
+    margin: 15px auto;
+    padding: 15px 10px;
+    width: 90%;
+  }
+  .main .hero .container .box .top i,
+  .signup .hero .container .box .top i,
+  .service .hero .container .box .top i,
+  .platform .hero .container .box .top i {
+    font-size: 15px;
+  }
+  .main .hero .container .box .bottom,
+  .signup .hero .container .box .bottom,
+  .service .hero .container .box .bottom,
+  .platform .hero .container .box .bottom {
+    padding: 15px 0 0 0;
+  }
+  .main .hero .container .box .bottom .big_icon,
+  .signup .hero .container .box .bottom .big_icon,
+  .service .hero .container .box .bottom .big_icon,
+  .platform .hero .container .box .bottom .big_icon {
+    width: 40%;
+  }
+  .main .hero .container .box .bottom .big_icon .icon,
+  .signup .hero .container .box .bottom .big_icon .icon,
+  .service .hero .container .box .bottom .big_icon .icon,
+  .platform .hero .container .box .bottom .big_icon .icon {
+    color: #5DB442;
+    font-size: 50px;
+    margin-right: 20%;
+  }
+  .main .hero .container .box .bottom .details,
+  .signup .hero .container .box .bottom .details,
+  .service .hero .container .box .bottom .details,
+  .platform .hero .container .box .bottom .details {
+    width: 60%;
+  }
+  .main .hero .container .box .bottom .details .subhead,
+  .signup .hero .container .box .bottom .details .subhead,
+  .service .hero .container .box .bottom .details .subhead,
+  .platform .hero .container .box .bottom .details .subhead {
+    font-size: 20px;
+    margin-bottom: 13px;
+  }
+  .main .hero .container .three_icon .icon_caption,
+  .signup .hero .container .three_icon .icon_caption,
+  .service .hero .container .three_icon .icon_caption,
+  .platform .hero .container .three_icon .icon_caption {
+    padding: 0;
+    margin: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .hero .container .three_icon .icon_caption .icon,
+  .signup .hero .container .three_icon .icon_caption .icon,
+  .service .hero .container .three_icon .icon_caption .icon,
+  .platform .hero .container .three_icon .icon_caption .icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .hero .container .three_icon .icon_caption .text,
+  .signup .hero .container .three_icon .icon_caption .text,
+  .service .hero .container .three_icon .icon_caption .text,
+  .platform .hero .container .three_icon .icon_caption .text {
+    font-size: 12px;
+    margin: 5px;
+  }
+  .footer .hero .container .top .row {
+    padding: 15px 10px;
   }
 }
 

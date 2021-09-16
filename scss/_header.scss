@@ -5,7 +5,6 @@
 
     .container {
         margin: 0;
-        padding: 0 $p_x;
         // padding: 0;
         // width: auto;
     }
@@ -88,6 +87,7 @@
 
     .container_bottom {
         
+        padding: 0 $p_x;
 
         .navbar_spacing {
             /* padding: 0 250px; */
