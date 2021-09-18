@@ -152,8 +152,8 @@
 
 /* Side Navbar Starts */
 body.side-menu-visible #side-menu {
-  -webkit-transform: translateX(-230px);
-          transform: translateX(-230px);
+  -webkit-transform: translateX(-260px);
+          transform: translateX(-260px);
   padding: 20px 15px;
 }
 
@@ -873,7 +873,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
   .service .hero .container .mailing,
   .platform .hero .container .mailing {
     margin-top: 30px;
-    font-size: 14px;
+    font-size: 12px;
   }
   .main .hero .container .mailing .mail,
   .signup .hero .container .mailing .mail,
@@ -887,6 +887,13 @@ body.side-menu-visible #side-menu .nav-link:hover {
   .service .hero .container .mailing .btn_click,
   .platform .hero .container .mailing .btn_click {
     padding: 8px 10px;
+  }
+  .main .hero .container .text2,
+  .signup .hero .container .text2,
+  .service .hero .container .text2,
+  .platform .hero .container .text2 {
+    font-size: 12px;
+    line-height: 1.35;
   }
   .main .hero .container .box,
   .signup .hero .container .box,

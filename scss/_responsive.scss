@@ -67,7 +67,7 @@ $fs_text3  : 16px;
     .main .hero,
     .signup .hero,
     .service .hero,
-    .platform .hero,{
+    .platform .hero{
         padding: $s45 $p_x;
 
         .container{
@@ -94,16 +94,21 @@ $fs_text3  : 16px;
 
             .mailing {
                 margin-top: $s60;
-                font-size: $fs_text2;
-
+                font-size: $fs_text1;
+                
                 .mail {
                     padding: $s10 $s20;
                     width: 50%;
                 }
-
+                
                 .btn_click {
                     padding: $s12 $s20;
                 }
+            }
+
+            .text2 {
+                font-size: $fs_text1;
+                line-height: 1.35;
             }
 
             .box{
@@ -133,7 +138,7 @@ $fs_text3  : 16px;
 
                     .details{
                         width: 60%;
-                        
+
                         .subhead {
                             font-size: $fs_subhead;
                             margin-bottom: $s25;
