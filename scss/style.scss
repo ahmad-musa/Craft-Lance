@@ -253,35 +253,36 @@
 
                     .line{
                         font-size: $fs_text1;
+                        min-width: 50%;
+                        text-align: center;
+                        padding: $s10 $s12;
                         font-weight: 600;
                         box-sizing: border-box;
                     }
 
                     .bgcolor{
-                        width: 50%;
-                        text-align: center;
                         color: $white;
                         background: $color2;
-                        padding: $s10 $s12;
                         border: 2px solid $color2;
                         border-radius: $s20 0 0 $s20;
                     }
 
                     .line2{
-                        width: 50%;
-                        text-align: center;
-                        padding: $s10 $s12;
                         border-radius: 0 $s20 $s20 0;
                         border: 2px solid $ash;
                     }
 
-                    .text{
+
+                    .or_text{
                         padding: 8px;
                         font-size: $fs_text1;
                         background: $color1;
                         color: $white;
                         border-radius: 50%;
                         position: absolute;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center; 
                     }
                 }
 
@@ -420,6 +421,16 @@
 
                     &:hover{
                         box-shadow: 0 0 $s5 rgba(0,0,0,0.25);
+                        
+                        .top{
+                            border: 2px solid $white;
+                            border-bottom: 1px solid $white;
+                        } 
+
+                        .bottom{
+                            border: 2px solid $white;
+                            border-top: 1px solid $white;
+                        }
 
                         .caption{
                             border-top: 4px solid $color2;
