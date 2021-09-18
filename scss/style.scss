@@ -4,26 +4,27 @@
 
 // Main Section Starts
 
-.main{
+.main {
     background: $color1;
     // height: 830px;
     text-align: center;
 
-    .hero{
+    .hero {
         padding: $s45 $p_x;
         box-sizing: border-box;
 
-        .container{
+        .container {
             // padding: 0 $p_x2;
             // width: 90%;
             margin: 0 auto;
 
-            .head{
+            .head {
                 font-size: $fs_head;
                 font-weight: 400;
                 margin: $s45 auto;
             }
-            .text{
+
+            .text {
                 // margin: $s15 $s30;
                 font-size: $fs_text3;
                 margin: $s15 auto;
@@ -31,39 +32,39 @@
                 line-height: 1.5;
             }
 
-            .image{
+            .image {
                 margin: $s15 0;
             }
 
-            .mailing{
+            .mailing {
                 margin-top: $s60;
 
-                .mail{
+                .mail {
                     padding: $s10 $s20;
                     width: 35%;
                     border: 2px solid $white;
                     border-radius: $s20 0 0 $s20;
                 }
 
-                .btn_click{
+                .btn_click {
                     color: $white;
                     padding: $s12 $s20;
-                    border-radius: 0 $s20 $s20 0 ;
+                    border-radius: 0 $s20 $s20 0;
                     background-color: $color1_hover;
                     border: 2px solid $color1_hover;
                     box-sizing: border-box;
 
-                    &:hover{
+                    &:hover {
                         border: 2px solid $white;
                         background-color: $color2;
-                        color:  $black-text;
+                        color: $black-text;
                     }
 
-                    
+
                 }
             }
 
-            .text2{      
+            .text2 {
                 font-size: $fs_text1;
                 color: $white;
                 margin: $s15;
@@ -81,87 +82,88 @@
 
 // Signup Section Starts
 
-.signup{
+.signup {
     background: $offwhite;
     // height: 620px;
     text-align: center;
-    
-    .hero{
+
+    .hero {
         padding: $s45 $p_x;
         box-sizing: border-box;
 
-        .container{
+        .container {
             // padding: 0 $p_x2;
             // width: 90%;
             margin: 0 auto;
-            
-            .head{
+
+            .head {
                 font-size: $fs_head;
                 font-weight: 400;
                 margin: $s45;
             }
 
-            .box{
-                
+            .box {
+
                 // margin: $s15 $s30;
                 margin: $s45 auto;
                 padding: $s30;
                 width: 55%;
                 background: $white;
-                box-shadow: 0 0 $s5 rgba(0,0,0,0.2);
+                box-shadow: 0 0 $s5 rgba(0, 0, 0, 0.2);
                 box-sizing: border-box;
 
-                .top{
+                .top {
 
-                    .icon, i{
+                    .icon,
+                    i {
                         display: block;
                         padding: -2px $s5;
                         color: $offwhite;
                         font-size: $fs_logo;
                         cursor: pointer;
 
-                        &:hover{
+                        &:hover {
                             color: $color2;
                         }
                     }
                 }
 
-                .bottom{
+                .bottom {
                     display: flex;
                     justify-content: center;
                     width: 100%;
                     padding: $s30 0;
 
-                    .big_icon{
+                    .big_icon {
                         width: 50%;
                         text-align: right;
 
-                        .icon{
+                        .icon {
                             color: $color2;
                             font-size: $fs_headlg;
                             margin-right: 20%;
 
-                            &:hover{
+                            &:hover {
                                 color: $ash;
                             }
 
                         }
                     }
 
-                    .details{
+                    .details {
                         width: 50%;
                         text-align: start;
-                        
-                        .subhead{
+
+                        .subhead {
                             font-size: $fs_subhead;
                             color: $color2;
                             margin-bottom: $s25;
                             text-transform: uppercase;
                         }
 
-                        .text{
+                        .text {
 
-                            .line{
+                            .line {
                                 margin: $s15;
                                 color: $black_text;
                             }
@@ -170,46 +172,46 @@
                     }
                 }
             }
-            
-            .three_icon{
+
+            .three_icon {
                 // margin-top: $s60;
                 display: flex;
                 justify-content: center;
-                
-                .icon_caption{
+
+                .icon_caption {
                     padding: $s10;
                     margin: $s15;
                     // width: 20%;
 
-                    .icon{
+                    .icon {
                         border: 2px solid $color2;
                         border-radius: 50%;
                         color: $color2;
                         padding: $fs_text3;
 
-                        .icons{
-                            color: $color2; 
+                        .icons {
+                            color: $color2;
                         }
 
-                        &:hover{
-                            background: $color2 ;
-                            color: $white; 
+                        &:hover {
+                            background: $color2;
+                            color: $white;
 
-                            .icons{
-                                color: $white; 
+                            .icons {
+                                color: $white;
                             }
                         }
 
                     }
 
-                    .text{
+                    .text {
                         font-size: $fs_text2;
                         margin: $s15;
                     }
                 }
-                    
+
             }
-            
+
         }
     }
 }
@@ -220,38 +222,38 @@
 
 // Service Section Starts
 
-.service{
+.service {
     // background: $ash;
     // height: 620px;
     text-align: center;
-    
-    .hero{
+
+    .hero {
         padding: $s45 $p_x;
         box-sizing: border-box;
 
-        .container{
+        .container {
             // padding: 0 $p_x2;
             // width: 90%;
             margin: 0 auto;
-            
-            .head{
+
+            .head {
                 font-size: $fs_head;
                 font-weight: 400;
                 margin: $s45;
             }
 
-            .box{
+            .box {
                 box-sizing: border-box;
                 margin: $s30 auto;
 
-                .top{
+                .top {
                     display: inline-flex;
                     justify-content: center;
                     align-items: center;
                     width: 30%;
                     position: relative;
 
-                    .line{
+                    .line {
                         font-size: $fs_text1;
                         min-width: 50%;
                         text-align: center;
@@ -260,20 +262,20 @@
                         box-sizing: border-box;
                     }
 
-                    .bgcolor{
+                    .bgcolor {
                         color: $white;
                         background: $color2;
                         border: 2px solid $color2;
                         border-radius: $s20 0 0 $s20;
                     }
 
-                    .line2{
+                    .line2 {
                         border-radius: 0 $s20 $s20 0;
                         border: 2px solid $ash;
                     }
 
 
-                    .or_text{
+                    .or_text {
                         padding: 8px;
                         font-size: $fs_text1;
                         background: $color1;
@@ -282,44 +284,46 @@
                         position: absolute;
                         display: flex;
                         justify-content: center;
-                        align-items: center; 
+                        align-items: center;
                     }
                 }
 
-                .bottom{
+                .bottom {
                     display: flex;
                     justify-content: center;
                     width: 100%;
                     padding: $s30 0;
 
-                    .big_icon{
+                    .big_icon {
                         width: 50%;
                         text-align: right;
-                        .icon{
+
+                        .icon {
                             color: $color2;
                             font-size: $fs_headlg;
                             margin-right: 20%;
-                            &:hover{
+
+                            &:hover {
                                 color: $ash;
                             }
 
                         }
                     }
 
-                    .details{
+                    .details {
                         width: 50%;
                         text-align: start;
-                        
-                        .head{
+
+                        .head {
                             font-size: $fs_subhead;
                             color: $color2;
                             margin-bottom: $s25;
                             text-transform: uppercase;
                         }
 
-                        .text{
+                        .text {
 
-                            .line{
+                            .line {
                                 margin: $s15;
                                 color: $black_text;
                             }
@@ -329,20 +333,20 @@
                 }
             }
 
-            .row_contain{
+            .row_container {
 
-                
-                .cards{
+
+                .cards {
                     margin: 0 7%;
                     text-align: center;
-                    
-                    .top{
+
+                    .top {
                         border: 2px solid $offwhite;
                         border-bottom: 1px solid $offwhite;
                         position: relative;
                         height: $s120;
 
-                        .caption{
+                        .caption {
                             display: inline-flex;
                             justify-content: center;
                             width: 30%;
@@ -351,10 +355,10 @@
                             border-top: 4px solid $offwhite;
                             font-size: $fs_text2;
                             text-transform: uppercase;
-                            font-weight: 600;  
+                            font-weight: 600;
                         }
 
-                        .circle{
+                        .circle {
                             display: flex;
                             flex-direction: column;
                             align-items: center;
@@ -368,13 +372,13 @@
                             position: absolute;
                             right: 50%;
                             bottom: -50%;
-                            transform: translate(50%,-20%);
+                            transform: translate(50%, -20%);
 
-                            .bold{
+                            .bold {
                                 font-size: $fs_subhead;
                             }
 
-                            p{
+                            p {
                                 font-size: $fs_text1;
                                 font-style: italic;
                             }
@@ -382,13 +386,13 @@
 
                     }
 
-                    .bottom{
+                    .bottom {
                         border: 2px solid $offwhite;
                         border-top: 1px solid $offwhite;
                         // height: 280px;
                         padding: $s60 0;
 
-                        .line1{
+                        .line1 {
                             // padding: 80px auto;
                             display: flex;
                             justify-content: center;
@@ -396,20 +400,20 @@
                             font-size: $fs_text1;
                             font-weight: 600;
 
-                            .icon{
+                            .icon {
                                 margin: 0 $s10;
-                            } 
+                            }
 
-                            .on{
+                            .on {
                                 color: $color2;
                             }
 
-                            .off{
+                            .off {
                                 color: $red;
                             }
                         }
 
-                        .btn_purchase{
+                        .btn_purchase {
                             margin: $s20;
                             padding: $s10 $s25;
                             font-size: $fs_text1;
@@ -419,29 +423,29 @@
                         }
                     }
 
-                    &:hover{
-                        box-shadow: 0 0 $s5 rgba(0,0,0,0.25);
-                        
-                        .top{
+                    &:hover {
+                        box-shadow: 0 0 $s5 rgba(0, 0, 0, 0.25);
+
+                        .top {
                             border: 2px solid $white;
                             border-bottom: 1px solid $white;
-                        } 
+                        }
 
-                        .bottom{
+                        .bottom {
                             border: 2px solid $white;
                             border-top: 1px solid $white;
                         }
 
-                        .caption{
+                        .caption {
                             border-top: 4px solid $color2;
                         }
 
-                        .circle{
+                        .circle {
                             box-shadow: 0 0 $s10 $color2;
                         }
 
-                        .btn_purchase{
-                            
+                        .btn_purchase {
+
                             color: $white;
                             background: $color2;
                             border: 2px solid $color2;
@@ -449,7 +453,7 @@
                     }
                 }
             }
-            
+
         }
     }
 }
@@ -464,49 +468,49 @@
 
 // Platform Section Starts
 
-.platform{
+.platform {
     text-align: center;
     background: $offwhite;
 
-    .hero{
+    .hero {
         padding: $s45 $p_x;
         box-sizing: border-box;
         // box-sizing: border-box;
 
-        .container{
+        .container {
             // width: 90%;
             margin: 0 auto;
 
-            .head{
+            .head {
                 font-size: $fs_head;
                 font-weight: 400;
                 margin: $s45;
             }
 
-            .col_contain{
+            .col_container {
 
-                .cards{
+                .cards {
                     background: $white;
-                    box-shadow: 0 0 2px rgba(0,0,0,0.2);
+                    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
                     padding: $s20;
                     margin: $s15;
 
-                    .icon{
+                    .icon {
                         font-size: $fs_iconlg;
                         color: $color2;
                         padding: $s15 $s5;
                         border-bottom: 3px solid $ash;
                     }
 
-                    .subhead{
+                    .subhead {
                         font-size: $fs_text3;
                         color: $black-text;
                         text-transform: uppercase;
                         font-weight: 400;
                         margin: $s20 0;
                     }
-                    
-                    .text{
+
+                    .text {
                         color: $black_lite;
                         font-size: $fs_text1;
                         font-weight: 300;
@@ -514,10 +518,12 @@
                         margin: $s10;
                     }
 
-                    &:hover{
+                    &:hover {
                         background: $color2;
 
-                        .icon,.subhead,.text{
+                        .icon,
+                        .subhead,
+                        .text {
                             color: $white;
                         }
                     }
@@ -530,78 +536,79 @@
 
 
 
-
-
-
-
-
-
-
 // Platform Section Ends
 
 
 // Footer Section Starts
 
-.footer{
+.footer {
     text-align: left;
     background: $ash;
 
-    .hero{
+    .hero {
 
-        .container{
+        .container {
             // width: 90%;
             margin: 0 auto;
 
-            .top{
+            .top {
                 // border-bottom: 2px solid $white;
 
-                .row{
-                    
+                .row_container {
+
                     padding: $s45 $p_x;
+                    justify-content: space-around;
                     box-sizing: border-box;
+
                     // justify-content: space-between;
-                    
-                    .col_container{
-                        margin: 0 $s20;
 
-                        .subhead{
-                            margin: $s15 0;
-                            color: $black_text;
-                            font-size: $fs_text3;
+                    .col_container {
+                        margin: 0 0;
 
-                            &:hover{
-                                color: $color2;
+                        .foot_head {
+                            display: inline-flex;
+
+                            .subhead {
+                                margin: $s15 0;
+                                color: $black_text;
+                                font-size: $fs_text3;
+
+                                &:hover {
+                                    color: $color2;
+                                }
                             }
+
                         }
-                        .tiny_text{
+
+                        .tiny_text {
                             // margin: $s5 0;
                             color: $black_lite;
                             font-size: $fs_text1;
                             line-height: 2;
                         }
 
-                        .box{
+                        .box {
                             box-sizing: border-box;
-                            margin: $s15 0; 
+                            margin: $s15 0;
 
-                            .email{
+                            .email {
                                 width: 80%;
-                                padding: $s10; 
+                                padding: $s10;
                                 color: $black_lite;
 
-                                &:focus{
+                                &:focus {
                                     outline: 2px solid $color2;
                                 }
                             }
 
-                            .icon{
-                                padding: $s10 $s20; 
+                            .icon {
+                                padding: $s10 $s20;
                                 background: $color2;
                                 color: $white;
                                 font-size: $fs_text3;
                                 outline: 2px solid $color2;
-                                
-                                &:hover{
+
+                                &:hover {
                                     color: $color2;
                                     background: $white;
                                     outline: 2px solid $color2;
@@ -610,13 +617,13 @@
                             }
                         }
 
-                        .text{
+                        .text {
                             margin: $s5 0;
                             color: $black_lite;
                             font-size: $fs_text1;
 
-                            &:hover{
-                                color: $color2; 
+                            &:hover {
+                                color: $color2;
                             }
                         }
                     }
@@ -624,52 +631,54 @@
 
             }
 
-            
-            .bottom{
+
+            .bottom {
                 border-top: 2px solid $white;
                 padding: $s30 0;
 
-                .container{
+                .container {
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
                     padding: 0 $p_x;
                     box-sizing: border-box;
 
-                    .footer_logo{
+                    .footer_logo {
                         font-family: $basicsans7;
                         font-size: $fs_logosm;
-    
-                        &:hover{
-                            color: $color2; 
+
+                        &:hover {
+                            color: $color2;
                         }
                     }
-    
-                    .credit{
+
+                    .credit {
                         font-size: $fs_text1;
                         color: $black_lite;
                         line-height: 1.5;
 
-                        p{
+                        p {
                             text-align: end;
 
-                            .dev{
+                            .dev {
                                 font-weight: 600;
-                                &:hover{
-                                    color: $color2; 
+
+                                &:hover {
+                                    color: $color2;
                                 }
                             }
-    
+
                         }
-                            
+
                     }
                 }
-                
+
             }
 
         }
     }
 }
+
 // Footer Section Ends
 
 @import 'responsive';

@@ -65,7 +65,8 @@
 
                 &:hover {
 
-                    i,.text {
+                    i,
+                    .text {
                         color: $color2;
                     }
                 }
@@ -86,7 +87,7 @@
 
 
     .container_bottom {
-        
+
         padding: 0 $p_x;
 
         .navbar_spacing {
@@ -134,12 +135,12 @@
                     }
                 }
 
-                .btn-click{
+                .btn-click {
                     padding: $s10 $s20;
                     border: 2px solid $color2;
                     border-radius: 25px;
 
-                    &:hover{
+                    &:hover {
                         background-color: $color2;
                         color: $white;
                     }
@@ -153,7 +154,8 @@
 /* Side Navbar Starts */
 
 body.side-menu-visible #side-menu {
-    transform: translateX(-260px);
+    // transform: translateX(-260px);
+    transform: translateX(-90%);
     padding: 20px 15px;
 
     .close {
