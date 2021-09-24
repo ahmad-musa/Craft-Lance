@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-
 /* colors */
 /* fonts */
 @font-face {
@@ -21,26 +20,14 @@
   margin: 0;
   padding: 0 200px;
   background: #282828;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
 .header .container_top .social {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -68,7 +55,6 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
@@ -154,7 +140,6 @@
 
 /* Side Navbar Starts */
 body.side-menu-visible #side-menu {
-  -webkit-transform: translateX(-90%);
   transform: translateX(-90%);
   padding: 20px 15px;
 }
@@ -205,7 +190,6 @@ body.side-menu-visible #side-menu .nav-link:hover {
 
 .main .hero {
   padding: 45px 200px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -247,7 +231,6 @@ body.side-menu-visible #side-menu .nav-link:hover {
   border-radius: 0 20px 20px 0;
   background-color: #37804E;
   border: 2px solid #37804E;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -270,7 +253,6 @@ body.side-menu-visible #side-menu .nav-link:hover {
 
 .signup .hero {
   padding: 45px 200px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -289,9 +271,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
   padding: 30px;
   width: 55%;
   background: #fff;
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -310,11 +290,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .signup .hero .container .box .bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
   padding: 30px 0;
@@ -353,11 +329,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .signup .hero .container .three_icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -397,7 +369,6 @@ body.side-menu-visible #side-menu .nav-link:hover {
 
 .service .hero {
   padding: 45px 200px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -412,20 +383,13 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .service .hero .container .box {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 30px auto;
 }
 
 .service .hero .container .box .top {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   width: 30%;
   position: relative;
@@ -437,7 +401,6 @@ body.side-menu-visible #side-menu .nav-link:hover {
   text-align: center;
   padding: 10px 12px;
   font-weight: 600;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -460,23 +423,13 @@ body.side-menu-visible #side-menu .nav-link:hover {
   color: #fff;
   border-radius: 50%;
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
 .service .hero .container .box .bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
   padding: 30px 0;
@@ -527,11 +480,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .service .hero .container .row_container .cards .top .caption {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   width: 30%;
   margin-top: -2px;
@@ -543,30 +492,19 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .service .hero .container .row_container .cards .top .circle {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   width: 90px;
   height: 90px;
   background: #fff;
   border-radius: 50%;
   border: 1px solid #5DB442;
-  -webkit-box-shadow: 0 0 5px #5DB442;
   box-shadow: 0 0 5px #5DB442;
   position: absolute;
   right: 50%;
   bottom: -50%;
-  -webkit-transform: translate(50%, -20%);
   transform: translate(50%, -20%);
 }
 
@@ -586,11 +524,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .service .hero .container .row_container .cards .bottom .line1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   padding: 10px;
   font-size: 12px;
@@ -619,7 +553,6 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .service .hero .container .row_container .cards:hover {
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
 }
 
@@ -638,7 +571,6 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .service .hero .container .row_container .cards:hover .circle {
-  -webkit-box-shadow: 0 0 10px #5DB442;
   box-shadow: 0 0 10px #5DB442;
 }
 
@@ -655,7 +587,6 @@ body.side-menu-visible #side-menu .nav-link:hover {
 
 .platform .hero {
   padding: 45px 200px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -671,7 +602,6 @@ body.side-menu-visible #side-menu .nav-link:hover {
 
 .platform .hero .container .col_container .cards {
   background: #fff;
-  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
   padding: 20px;
   margin: 15px;
@@ -721,9 +651,7 @@ body.side-menu-visible #side-menu .nav-link:hover {
 
 .footer .hero .container .top .row_container {
   padding: 45px 200px;
-  -ms-flex-pack: distribute;
   justify-content: space-around;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -732,8 +660,6 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .footer .hero .container .top .row_container .col_container .foot_head {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
@@ -747,6 +673,12 @@ body.side-menu-visible #side-menu .nav-link:hover {
   color: #5DB442;
 }
 
+.footer .hero .container .top .row_container .col_container .newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .footer .hero .container .top .row_container .col_container .tiny_text {
   color: #777777;
   font-size: 12px;
@@ -754,7 +686,6 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .footer .hero .container .top .row_container .col_container .box {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 15px 0;
 }
@@ -799,17 +730,10 @@ body.side-menu-visible #side-menu .nav-link:hover {
 }
 
 .footer .hero .container .bottom .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   padding: 0 200px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -845,41 +769,30 @@ body.side-menu-visible #side-menu .nav-link:hover {
   html {
     overflow-x: hidden;
   }
-
   .header .container_top {
     padding: 0 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
   }
-
   .header .container_top .contact_top {
     display: none;
   }
-
   .header .container_bottom {
     padding: 0 10px;
   }
-
   .header .container_bottom #Nav {
     padding: 0;
   }
-
   .header .container_bottom #Nav .logo {
     padding-left: 8px;
     font-size: 20px;
   }
-
   .main .hero,
   .signup .hero,
   .service .hero,
   .platform .hero {
     padding: 10px 10px;
   }
-
   .main .hero .container .head,
   .signup .hero .container .head,
   .service .hero .container .head,
@@ -887,7 +800,6 @@ body.side-menu-visible #side-menu .nav-link:hover {
     font-size: 28px;
     margin: 10px auto;
   }
-
   .main .hero .container .text,
   .signup .hero .container .text,
   .service .hero .container .text,
@@ -896,7 +808,6 @@ body.side-menu-visible #side-menu .nav-link:hover {
     width: 90%;
     text-align: justify;
   }
-
   .main .hero .container .image,
   .signup .hero .container .image,
   .service .hero .container .image,
@@ -904,14 +815,12 @@ body.side-menu-visible #side-menu .nav-link:hover {
     margin: 8px 0;
     width: 100%;
   }
-
   .main .hero .container .image img,
   .signup .hero .container .image img,
   .service .hero .container .image img,
   .platform .hero .container .image img {
     width: 80%;
   }
-
   .main .hero .container .mailing,
   .signup .hero .container .mailing,
   .service .hero .container .mailing,
@@ -919,7 +828,6 @@ body.side-menu-visible #side-menu .nav-link:hover {
     margin-top: 30px;
     font-size: 12px;
   }
-
   .main .hero .container .mailing .mail,
   .signup .hero .container .mailing .mail,
   .service .hero .container .mailing .mail,
@@ -927,14 +835,12 @@ body.side-menu-visible #side-menu .nav-link:hover {
     padding: 5px 10px;
     width: 50%;
   }
-
   .main .hero .container .mailing .btn_click,
   .signup .hero .container .mailing .btn_click,
   .service .hero .container .mailing .btn_click,
   .platform .hero .container .mailing .btn_click {
     padding: 6px 10px;
   }
-
   .main .hero .container .text2,
   .signup .hero .container .text2,
   .service .hero .container .text2,
@@ -942,7 +848,6 @@ body.side-menu-visible #side-menu .nav-link:hover {
     font-size: 12px;
     line-height: 1.35;
   }
-
   .main .hero .container .box,
   .signup .hero .container .box,
   .service .hero .container .box,
@@ -951,7 +856,6 @@ body.side-menu-visible #side-menu .nav-link:hover {
     padding: 10px 8px;
     width: 98%;
   }
-
   .main .hero .container .box .top,
   .signup .hero .container .box .top,
   .service .hero .container .box .top,
@@ -959,14 +863,12 @@ body.side-menu-visible #side-menu .nav-link:hover {
     width: 85%;
     margin: 0 auto;
   }
-
   .main .hero .container .box .top i,
   .signup .hero .container .box .top i,
   .service .hero .container .box .top i,
   .platform .hero .container .box .top i {
     font-size: 15px;
   }
-
   .main .hero .container .box .top .line,
   .signup .hero .container .box .top .line,
   .service .hero .container .box .top .line,
@@ -974,28 +876,24 @@ body.side-menu-visible #side-menu .nav-link:hover {
     width: 90%;
     padding: 5px 12px;
   }
-
   .main .hero .container .box .top .or_text,
   .signup .hero .container .box .top .or_text,
   .service .hero .container .box .top .or_text,
   .platform .hero .container .box .top .or_text {
     padding: 5px;
   }
-
   .main .hero .container .box .bottom,
   .signup .hero .container .box .bottom,
   .service .hero .container .box .bottom,
   .platform .hero .container .box .bottom {
     padding: 15px 0 0 0;
   }
-
   .main .hero .container .box .bottom .big_icon,
   .signup .hero .container .box .bottom .big_icon,
   .service .hero .container .box .bottom .big_icon,
   .platform .hero .container .box .bottom .big_icon {
     width: 40%;
   }
-
   .main .hero .container .box .bottom .big_icon .icon,
   .signup .hero .container .box .bottom .big_icon .icon,
   .service .hero .container .box .bottom .big_icon .icon,
@@ -1004,14 +902,12 @@ body.side-menu-visible #side-menu .nav-link:hover {
     font-size: 50px;
     margin-right: 20%;
   }
-
   .main .hero .container .box .bottom .details,
   .signup .hero .container .box .bottom .details,
   .service .hero .container .box .bottom .details,
   .platform .hero .container .box .bottom .details {
     width: 60%;
   }
-
   .main .hero .container .box .bottom .details .subhead,
   .signup .hero .container .box .bottom .details .subhead,
   .service .hero .container .box .bottom .details .subhead,
@@ -1019,50 +915,32 @@ body.side-menu-visible #side-menu .nav-link:hover {
     font-size: 20px;
     margin-bottom: 12px;
   }
-
   .main .hero .container .three_icon,
   .signup .hero .container .three_icon,
   .service .hero .container .three_icon,
   .platform .hero .container .three_icon {
     margin: 0 auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
     justify-content: space-around;
   }
-
   .main .hero .container .three_icon .icon_caption,
   .signup .hero .container .three_icon .icon_caption,
   .service .hero .container .three_icon .icon_caption,
   .platform .hero .container .three_icon .icon_caption {
     padding: 0;
     margin: 5px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
     justify-content: space-around;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
   }
-
   .main .hero .container .three_icon .icon_caption .icon,
   .signup .hero .container .three_icon .icon_caption .icon,
   .service .hero .container .three_icon .icon_caption .icon,
   .platform .hero .container .three_icon .icon_caption .icon {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
   }
-
   .main .hero .container .three_icon .icon_caption .text,
   .signup .hero .container .three_icon .icon_caption .text,
   .service .hero .container .three_icon .icon_caption .text,
@@ -1070,28 +948,24 @@ body.side-menu-visible #side-menu .nav-link:hover {
     font-size: 12px;
     margin: 5px;
   }
-
   .main .hero .container .row_container .cards,
   .signup .hero .container .row_container .cards,
   .service .hero .container .row_container .cards,
   .platform .hero .container .row_container .cards {
     margin: 5% 10%;
   }
-
   .main .hero .container .row_container .cards .bottom,
   .signup .hero .container .row_container .cards .bottom,
   .service .hero .container .row_container .cards .bottom,
   .platform .hero .container .row_container .cards .bottom {
     padding: 60px 0 0 0;
   }
-
   .main .hero .container .row_container .cards .bottom .line1,
   .signup .hero .container .row_container .cards .bottom .line1,
   .service .hero .container .row_container .cards .bottom .line1,
   .platform .hero .container .row_container .cards .bottom .line1 {
     padding: 5px 0;
   }
-
   .main .hero .container .row_container .cards .bottom .btn_purchase,
   .signup .hero .container .row_container .cards .bottom .btn_purchase,
   .service .hero .container .row_container .cards .bottom .btn_purchase,
@@ -1099,38 +973,57 @@ body.side-menu-visible #side-menu .nav-link:hover {
     margin: 15px;
     padding: 10px 10px;
   }
-
   .footer .hero .container .top .row_container {
     padding: 15px 10px;
   }
-
   .footer .hero .container .bottom {
     padding: 5px 10px;
   }
-
   .footer .hero .container .bottom .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
     justify-content: space-around;
     padding: 0 10px;
   }
-
   .footer .hero .container .bottom .container .footer_logo {
     font-size: 16px;
   }
-
   .footer .hero .container .bottom .container .credit {
     font-size: 10px;
     line-height: 1.15;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .main .hero,
+  .signup .hero,
+  .service .hero,
+  .platform .hero {
+    padding: 10px 10px;
+  }
+  .footer .hero .container .top .row_container {
+    padding: 20px 10px;
+  }
+}
+
 /* // Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .main .hero,
+  .signup .hero,
+  .service .hero,
+  .platform .hero {
+    padding: 10px 10px;
+  }
+  .footer .hero .container .top .row_container {
+    padding: 20px 10px;
+    margin: 0 auto;
+  }
+  .footer .hero .container .top .row_container .col_container {
+    margin: 10px;
+    padding: 10px;
+  }
+}
+
 /* // Large devices (desktops, less than 1200px) */
 /* // X-Large devices (large desktops, less than 1400px) */

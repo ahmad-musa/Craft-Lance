@@ -577,8 +577,14 @@
                                     color: $color2;
                                 }
                             }
-
                         }
+
+                        .newsletter {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+
 
                         .tiny_text {
                             // margin: $s5 0;
