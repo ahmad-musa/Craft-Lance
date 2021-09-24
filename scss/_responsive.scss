@@ -1,4 +1,10 @@
-    // Font Size
+   
+
+
+    /* // X-Small devices (portrait phones, less than 576px) */
+    @media screen and (max-width: 575.98px) {
+
+         // Font Size
     $fs_headlg : 50px;
     $fs_iconlg : 30px;
     $fs_head : 28px;
@@ -30,9 +36,6 @@
     $s5: 5px;
     $s2: 2px;
 
-
-    /* // X-Small devices (portrait phones, less than 576px) */
-    @media screen and (max-width: 575.98px) {
 
         html {
             overflow-x: hidden;
@@ -169,7 +172,8 @@
                 .three_icon {
                     margin: 0 auto;
                     display: flex;
-                    justify-content: space-around;
+                    flex-wrap: wrap;
+                    justify-content: flex-start;
 
                     .icon_caption {
                         padding: 0;
@@ -193,23 +197,30 @@
 
                 .row_container {
 
-                    .cards {
-                        margin: 5% 10%;
+                    .col_container{
 
-                        .bottom {
-                            padding: $s60_r 0 0 0;
-
-                            .line1 {
-                                padding: $s10 0;
-                            }
-
-                            .btn_purchase {
-                                margin: $s30;
-                                padding: $s20 $s20;
+                        .cards {
+                            margin: $s20 $s40;
+                            
+                            .bottom {
+                                padding: $s60_r 0 0 0;
+    
+                                .line1 {
+                                    padding: $s10 0;
+                                }
+    
+                                .btn_purchase {
+                                    margin: $s30;
+                                    padding: $s20 $s20;
+                                }
                             }
                         }
                     }
+
+                    
                 }
+
+
             }
         }
 
@@ -220,14 +231,31 @@
                 .container {
 
                     .top {
+                        padding: $s10 $p_x;
 
                         .row_container {
-                            padding: $s45 $p_x;
+                            padding: $s10 $p_x;
+
+                            .col_container{
+
+                                .box{
+                                    display: flex;
+                                    justify-content: space-around;
+
+                                    .email {
+                                        width: 70%;
+                                    }
+
+                                    .icon {
+                                        padding: 10px 12px;
+                                    }
+                                } 
+                            } 
                         }
                     }
 
                     .bottom {
-                        padding: $s10 $p_x;
+                        padding: $p_x;
 
                         .container {
                             display: flex;
@@ -242,7 +270,6 @@
                                 font-size: $s20;
                                 line-height: 1.15;
                                 display: flex;
-
                             }
                         }
                     }
@@ -255,26 +282,100 @@
 
     /* // Small devices (landscape phones, less than 768px) */
     @media (min-width: 576px) and (max-width: 767.98px) {
+        $fs_head: 34px;
+        $s5: 5px;
         $s20: 10px;
-        $s45: 20px;
-        $p_x: 10px;
+        $s30: 15px;
+        $s45: 15px;
+        $p_x: 20px;
         $s120: 12px;
         
+        .header{
+            .container_top, .container_bottom {
+                padding: 0 $p_x;
+            }
+        }
+
         .main .hero,
         .signup .hero,
         .service .hero,
         .platform .hero {
-            padding: $s20 $p_x;
+            padding: $s20 $p_x; 
+
+            .container{
+
+                .head {
+                    font-size: $fs_head;
+                    margin: $s45;
+                }
+
+                .box {
+                    margin: $s45 auto;
+                    padding: $s30;
+                    width: 70%;
+
+                    .top {
+                        width: 55%;
+                    }
+                }
+
+                .row_container{
+
+                    .col_container{
+                        margin: 0 auto;
+
+                        .cards {
+                            margin: $s30;
+                        }
+                    }
+                } 
+
+                .three_icon{
+                    
+                    .icon_caption {
+                        padding: $s5;
+                        margin: $s5;
+                    }
+                } 
+            }
+
+            .image {
+                margin: $s15 0;
+                width: 100%;
+
+                img {
+                    width: 80%;
+                }
+            }
         }
 
         .footer{
+
             .hero{
+
                 .container{
+
                     .top{
                         .row_container {
                             padding: $s45 $p_x;
+
+                            .col_container{
+                                margin: $s30;
+                                .box {
+                                    
+                                    display: flex;
+                                    justify-content: space-around;
+                                }
+                            } 
                         }
                     } 
+
+                    .bottom{
+
+                        .container {
+                            padding: 0 $p_x;
+                          }
+                    }
                 } 
             } 
         } 
@@ -282,27 +383,71 @@
 
     /* // Medium devices (tablets, less than 992px) */
     @media (min-width: 768px) and (max-width: 991.98px) {
-        $p_x: 10px;
+        $p_x: 30px;
         $s120: 12px;
-        $s20: 10px;
         $s45: 20px;
-        $p_x: 10px;
-        $s120: 12px;
+        $fs_head: 38px;
         
+
+        .header{
+            .container_top, .container_bottom {
+                padding: 0 $p_x;
+            }
+        }
+
         .main .hero,
         .signup .hero,
         .service .hero,
         .platform .hero {
             padding: $s20 $p_x;
+
+            .container{
+                
+                .head {
+                    font-size: $fs_head;
+                    margin: $s15;
+                }
+
+                .box {
+                    margin: $s10 auto;
+                    padding: $s10;
+                    width: 75%;
+                }
+
+                .row_container{
+
+                    .col_container{
+                        margin: 0 auto;
+
+                        .cards {
+                            margin: $s15;
+                        }
+                    }
+                }
+
+                .three_icon{
+                    
+                    .icon_caption {
+                        padding: 5px;
+                        margin: 5px 10px;
+                    }
+                } 
+            }
+            
         }
 
         .footer{
             .hero{
+
                 .container{
+
                     .top{
+
                         .row_container {
-                            padding: $s45 $p_x;
+
+                            padding: $s10 $p_x;
                             margin: 0 auto;
+                            text-align: center;
 
                             .col_container{
                                 margin: 10px;
@@ -310,13 +455,111 @@
                             }
                         }
                     } 
+
+                    .bottom{
+                        padding: $s20 $s10;
+
+                        .container {
+                            padding: 0 $p_x;
+                            }
+                    } 
                 } 
             } 
         } 
     }
 
     /* // Large devices (desktops, less than 1200px) */
-    @media (min-width: 992px) and (max-width: 1199.98px) {}
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        $p_x: 60px;
+        $s120: 24px;
+        $s45: 20px;
+        
+
+        .header{
+            .container_top, .container_bottom {
+                padding: 0 $p_x;
+            }
+        }
+
+        .main .hero,
+        .signup .hero,
+        .service .hero,
+        .platform .hero {
+            padding: $s20 $p_x;
+
+            .container{
+                
+                .head {
+                    font-size: $fs_head;
+                    margin: $s15;
+                }
+
+                .box {
+                    margin: $s10 auto;
+                    padding: $s10;
+                    width: 75%;
+                }
+
+                .row_container{
+
+                    .col_container{
+                        margin: 0 auto;
+
+                        .cards {
+                            margin: $s15;
+                        }
+                    }
+                }
+
+                .three_icon{
+                    
+                    .icon_caption {
+                        padding: 5px;
+                        margin: 5px 10px;
+                    }
+                } 
+            }
+            
+        }
+
+        .footer{
+            .hero{
+
+                .container{
+
+                    .top{
+
+                        .row_container {
+
+                            padding: $s10 $p_x;
+                            margin: 0 auto;
+                            text-align: center;
+
+                            .col_container{
+                                margin: 10px;
+                                padding: 10px;
+
+                                .box{
+                                    .email {
+                                        width: 75%;
+                                    }
+                                } 
+                            }
+                        }
+                    } 
+
+                    .bottom{
+                        padding: $s20 $s10;
+
+                        .container {
+                            padding: 0 $p_x;
+                            }
+                    } 
+                } 
+            } 
+        } 
+
+    }
 
     /* // X-Large devices (large desktops, less than 1400px) */
     @media (min-width: 1200px) and (max-width: 1399.98px) {}

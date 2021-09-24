@@ -563,7 +563,7 @@
                     // justify-content: space-between;
 
                     .col_container {
-                        margin: 0 0;
+                        margin: 0 $s10;
 
                         .foot_head {
                             display: inline-flex;
@@ -598,7 +598,7 @@
                             margin: $s15 0;
 
                             .email {
-                                width: 80%;
+                                width: 75%;
                                 padding: $s10;
                                 color: $black_lite;
 
